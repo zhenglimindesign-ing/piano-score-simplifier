@@ -1,0 +1,67 @@
+{
+  "receipt_version": "publication-receipt-1.0",
+  "status": "PUBLIC_RELEASE_VERIFIED",
+  "publication_performed": true,
+  "version": "0.3.7",
+  "repository": "https://github.com/zhenglimindesign-ing/piano-score-simplifier",
+  "tag": "v0.3.7",
+  "release_commit_sha": "982d3c903519ce2a34198e6d4d0a3c3b8f16763d",
+  "release_url": "https://github.com/zhenglimindesign-ing/piano-score-simplifier/releases/tag/v0.3.7",
+  "release_prerelease": true,
+  "published_at": "2026-10-05T18:34:57Z",
+  "verified_at_utc": "2026-10-05 18:37:02 UTC",
+  "distribution_manifest_sha256": "c2eb1db4c484083a50fd66e1382713dfe787acad2f0d2609f085c304477222e4",
+  "content_sha256": "865e1cc386b94e03f65276e86352288ffec79798c879b0fa9d34b3ecbb5fd02e",
+  "listed_content_files": 57,
+  "tag_tree_verified_files": 58,
+  "assets": [
+    {
+      "name": "DISTRIBUTION.json",
+      "bytes": 10634,
+      "sha256": "c2eb1db4c484083a50fd66e1382713dfe787acad2f0d2609f085c304477222e4",
+      "url": "https://github.com/zhenglimindesign-ing/piano-score-simplifier/releases/download/v0.3.7/DISTRIBUTION.json"
+    },
+    {
+      "name": "piano-score-reduction-0.3.7.zip",
+      "bytes": 47713,
+      "sha256": "6c129f0e8a9ab37c51abdb11190e0cbbc370e043e1b87eacdd19b01c089021b6",
+      "url": "https://github.com/zhenglimindesign-ing/piano-score-simplifier/releases/download/v0.3.7/piano-score-reduction-0.3.7.zip"
+    },
+    {
+      "name": "score-simplifier-0.3.7-source.zip",
+      "bytes": 1026393,
+      "sha256": "02a225173ce2fe18894167455c48469f06a5dd0bdbc5371ec3875131f2718a22",
+      "url": "https://github.com/zhenglimindesign-ing/piano-score-simplifier/releases/download/v0.3.7/score-simplifier-0.3.7-source.zip"
+    },
+    {
+      "name": "SHA256SUMS",
+      "bytes": 282,
+      "sha256": "d40d2d1f7afa7ce16eeabfe81734a6d6a0da16ecf0b7c0538bfc26b41211b477",
+      "url": "https://github.com/zhenglimindesign-ing/piano-score-simplifier/releases/download/v0.3.7/SHA256SUMS"
+    }
+  ],
+  "verification": {
+    "anonymous_asset_downloads": "4/4 BYTE_IDENTICAL_TO_TESTED_CANDIDATE",
+    "GitHub_asset_digests": "4/4 MATCH",
+    "tag_tree_objects": "58/58 MATCH",
+    "root_and_asset_manifest": "BYTE_IDENTICAL",
+    "manifest_inventory": "57/57 MATCH",
+    "regression_tests": "103 PASS",
+    "clean_source_install": "LOCAL_EXTRACTED_RUNTIME_PASS",
+    "clean_portable_install": "CLEAN_PORTABLE_LOCAL_RUNTIME_PASS",
+    "original_and_previous_version_retention": "PASS",
+    "runtime_version": "0.3.7",
+    "two_build_reproducibility": "SOURCE_AND_PORTABLE_BYTE_IDENTICAL",
+    "v0_3_6_assets": "UNCHANGED"
+  },
+  "scope": {
+    "source_edition": "Schirmer/Oesterle 1909, plate 21360, October mm.1-16",
+    "redistribution_basis": "Historical notation US public domain; own transcription/render; source scans excluded; MIT project contributions and included SIL OFL font notices",
+    "human_listening_playing_musical_acceptance_calibration": "NOT_RUN",
+    "reductions_musical_status": "REVIEW_REQUIRED",
+    "original_internal_ornament_playback": "INCOMPLETE",
+    "new_independent_Claude_Code_Claude_web_ChatGPT_Work_trials": "NOT_RUN; unchanged runtime uses explicitly inherited v0.3.6 evidence",
+    "new_AI_skill_discovery_conversation": "NOT_RUN; this release adds local exact package/runtime execution evidence"
+  },
+  "inventory_relation": "This separately verified post-publication receipt is excluded from DISTRIBUTION.json and immutable release ZIPs. A receipt-only main commit follows the release tag; all listed bytes remain identical to the release commit."
+}
