@@ -6,6 +6,8 @@ Score Simplifier handles solo-piano scores with an established source and permis
 
 ## 1. Obtain the complete skill folder
 
+Score Simplifier is the public project name; the current skill ID and install-folder name remain `piano-score-reduction` for compatibility.
+
 Download `piano-score-reduction-<version>.zip` from the [v0.3.6 release](https://github.com/zhenglimindesign-ing/piano-score-simplifier/releases/tag/v0.3.6), then extract it. Use its complete `piano-score-reduction` folder. If you received a repository archive, use `skills/piano-score-reduction` instead and copy the root `LICENSE` and `NOTICE` into the installed folder. Keep these contents together:
 
 ```text
