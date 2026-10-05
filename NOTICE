@@ -1,0 +1,18 @@
+Score Simplifier / 钢琴谱简化
+
+The project's own code and documentation are licensed under MIT (see LICENSE).
+This does not grant rights to input scores, editions or third-party software.
+项目自有代码与说明采用 MIT（见 LICENSE）；不授予输入乐谱、具体版本或第三方软件的权利。
+
+Dependencies are installed separately, not bundled in this distribution:
+- lxml 6.1.3: BSD-3-Clause; its upstream LICENSES.txt lists additional terms
+  for bundled resources and binary dependencies. https://lxml.de/
+- mido 1.3.3: MIT. https://github.com/mido/mido
+- packaging 26.3: Apache-2.0 OR BSD-2-Clause. https://github.com/pypa/packaging
+- pypdf 6.19.0: BSD-3-Clause. https://github.com/py-pdf/pypdf
+
+MuseScore, Poppler and optional FFmpeg are separate tools. MuseScore is GPLv3;
+their code, executables and fonts are not included here. Runtime MusicXML
+schemas are fetched from their declared upstream URLs and are not bundled.
+No score files, private repository history or private acceptance logs are included.
+依赖与排谱工具独立安装；本包不含第三方程序、字体、schema、乐谱、私有历史或私有验收日志。

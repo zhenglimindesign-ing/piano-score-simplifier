@@ -1,0 +1,107 @@
+{
+  "manifest_version": "public-staging-0.1",
+  "implementation_version": "0.3.6",
+  "status": "STAGING",
+  "content_sha256": "049a78d46d8c10bf16ff808dc47d6ef877fb6cf66d467257be7e0bf68db72aac",
+  "files": [
+    {
+      "path": "LICENSE",
+      "bytes": 1086,
+      "sha256": "6bb0c465f61948e0d765d32cc017814b264dec198207f58b4780b2d6a2962b4a"
+    },
+    {
+      "path": "NOTICE",
+      "bytes": 1167,
+      "sha256": "1891060ef559a644539487aecffe5fb139e0be0c5c9110b5a1cc98445210a54b"
+    },
+    {
+      "path": "README.md",
+      "bytes": 11177,
+      "sha256": "39b14d21098db0e34a0432de78575011cd4971f9b0f3271a1876cd5d3014c17b"
+    },
+    {
+      "path": "README.zh-CN.md",
+      "bytes": 270,
+      "sha256": "fec3376131ea66ecc40f8f1e20ffa9e1b68f307aecde8e25cc88f2487c80fb5a"
+    },
+    {
+      "path": "docs/INSTALL.en.md",
+      "bytes": 7565,
+      "sha256": "8f47718327d676ae28d58e767332ad9bf06b3d4cfae8894aacb7c0bb82ec0770"
+    },
+    {
+      "path": "docs/INSTALL.zh-CN.md",
+      "bytes": 6791,
+      "sha256": "f3a9228237dbe56bf07c11a9ac5005820929f80afd51eee70c650a434ad37d68"
+    },
+    {
+      "path": "requirements.txt",
+      "bytes": 54,
+      "sha256": "21029681fec52521641428ede1cbd7eb9baf4242c71bc7fde5c6039d96de35e6"
+    },
+    {
+      "path": "skills/piano-score-reduction/SKILL.md",
+      "bytes": 6730,
+      "sha256": "ccd08767c48901c9f0bb9fa36e0c1f8f102e59e8c251ef3bdfccfd425c172d5c"
+    },
+    {
+      "path": "skills/piano-score-reduction/assets/readable-a4.mss",
+      "bytes": 723,
+      "sha256": "21491ae8f2c464e819e07da363445f7118538bd44302c337256888d3c38e1a38"
+    },
+    {
+      "path": "skills/piano-score-reduction/references/workflow.en.md",
+      "bytes": 11479,
+      "sha256": "abe0f31b95a2f6325c2f3b28d02fcebc633893f2b57f6e313adce47a3a7b83cd"
+    },
+    {
+      "path": "skills/piano-score-reduction/references/workflow.zh-CN.md",
+      "bytes": 10745,
+      "sha256": "e039074bd0c5816bec35a8ca44dbd5a21271b31d4b9343c3144e7ab2acc94ec4"
+    },
+    {
+      "path": "skills/piano-score-reduction/requirements.txt",
+      "bytes": 40,
+      "sha256": "8261a7a0421d4ee6e5cc9f71a9da167d93c77cc41b4ce82a9bba211bc7868a8e"
+    },
+    {
+      "path": "skills/piano-score-reduction/scripts/fetch_schema.py",
+      "bytes": 1847,
+      "sha256": "dc4e210ce8cf05cb7c4576137ae0cde5d7a270c26a10d9072c7d1681f5986596"
+    },
+    {
+      "path": "skills/piano-score-reduction/scripts/preflight.py",
+      "bytes": 1027,
+      "sha256": "9234721e699c51cc63c3ae9c595756a55a4aeef0a98c5eabecc252c7b6a83cdb"
+    },
+    {
+      "path": "skills/piano-score-reduction/scripts/score_core.py",
+      "bytes": 60424,
+      "sha256": "bad8d4bfaef562d9cbccadf900349d4396c119ae390ad71c5a3d756aa8d87d58"
+    },
+    {
+      "path": "skills/piano-score-reduction/scripts/score_pipeline.py",
+      "bytes": 30806,
+      "sha256": "de5dc9c8e974a34e913134c401d9e0953f3348444fbf925f42d652facc6b28a3"
+    },
+    {
+      "path": "skills/piano-score-reduction/scripts/score_tool.py",
+      "bytes": 3238,
+      "sha256": "b961cafdf1cb092d39716880eb344fb41b442f20b7cd389d4a9bfb5f83888411"
+    }
+  ],
+  "contains_git_history": false,
+  "contains_scores": false,
+  "credential_pattern_scan": "NO_MATCHES",
+  "publication_performed": false,
+  "release_gates": {
+    "source_and_musical_acceptance": "NOT_RUN",
+    "level_and_length_coverage": "NOT_RUN",
+    "human_playing": "NOT_RUN",
+    "four_host_acceptance": "NOT_RUN",
+    "clean_install": "NOT_RUN",
+    "project_license_decision": "PENDING_USER_DECISION",
+    "public_contents_approval": "PENDING_USER_DECISION"
+  },
+  "note": "Local staging only. Inventory checks do not establish release acceptance or permission to publish."
+}
