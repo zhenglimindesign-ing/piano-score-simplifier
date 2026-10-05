@@ -2,7 +2,7 @@
   "manifest_version": "distribution-content-1.0",
   "implementation_version": "0.3.7",
   "status": "CONTENT_SNAPSHOT",
-  "content_sha256": "865e1cc386b94e03f65276e86352288ffec79798c879b0fa9d34b3ecbb5fd02e",
+  "content_sha256": "5d4fc74889cd831eec57e1d04a0f84a1d47344289f3b6f7142d03e721e13b1d1",
   "files": [
     {
       "path": "LICENSE",
@@ -47,7 +47,7 @@
     {
       "path": "docs/INSTALL.zh-CN.md",
       "bytes": 7199,
-      "sha256": "d371dddf2de2ded6c38fcaff1a3e3a6c316fdd2e24f02794bdf9e78984b07371"
+      "sha256": "5931baecaeebe94c15975d5873fb7a0885eb4fd0d0e984dc80da9c5554c1d5ed"
     },
     {
       "path": "docs/SUPPORT.en.md",

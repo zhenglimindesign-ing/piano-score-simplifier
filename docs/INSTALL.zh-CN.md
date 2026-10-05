@@ -8,7 +8,7 @@ Score Simplifier 处理来源与使用权限明确的钢琴独奏谱。先用短
 
 Score Simplifier 是公开项目名；当前 skill ID 和安装目录名为了兼容仍保留为 `piano-score-reduction`。
 
-从[v0.3.6 发布页](https://github.com/zhenglimindesign-ing/piano-score-simplifier/releases/tag/v0.3.7)下载 `piano-score-reduction-<version>.zip` 并解压，使用其中完整的 `piano-score-reduction` 文件夹。如果拿到的是仓库压缩包，使用 `skills/piano-score-reduction`，并将根目录的 `LICENSE` 与 `NOTICE` 复制到安装后的文件夹。保持以下内容完整：
+从[v0.3.7 发布页](https://github.com/zhenglimindesign-ing/piano-score-simplifier/releases/tag/v0.3.7)下载 `piano-score-reduction-<version>.zip` 并解压，使用其中完整的 `piano-score-reduction` 文件夹。如果拿到的是仓库压缩包，使用 `skills/piano-score-reduction`，并将根目录的 `LICENSE` 与 `NOTICE` 复制到安装后的文件夹。保持以下内容完整：
 
 ```text
 piano-score-reduction/

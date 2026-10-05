@@ -63,5 +63,24 @@
     "new_independent_Claude_Code_Claude_web_ChatGPT_Work_trials": "NOT_RUN; unchanged runtime uses explicitly inherited v0.3.6 evidence",
     "new_AI_skill_discovery_conversation": "NOT_RUN; this release adds local exact package/runtime execution evidence"
   },
-  "inventory_relation": "This separately verified post-publication receipt is excluded from DISTRIBUTION.json and immutable release ZIPs. A receipt-only main commit follows the release tag; all listed bytes remain identical to the release commit."
+  "inventory_relation": "DISTRIBUTION.json inventories current main content, including the post-release Chinese install-label correction. Top-level distribution_manifest_sha256/content_sha256 and asset hashes identify the immutable v0.3.7 release; current_repository_snapshot identifies revised main. The original tag/source ZIP still contain the original label. PUBLICATION.json remains excluded from the inventory to avoid circular hashes; no new release or replacement asset is claimed.",
+  "verification_scope": "The existing verification object and top-level content/manifest hashes describe the immutable v0.3.7 release at release_commit_sha, verified at verified_at_utc. Current main is described separately below.",
+  "current_repository_snapshot": {
+    "status": "POST_RELEASE_DOCUMENTATION_PATCH",
+    "base_commit_sha": "a41df196a4f67a32fdbb205a9e5a2e244a82fb7c",
+    "implementation_version": "0.3.7",
+    "distribution_manifest_sha256": "bf823e35178870893c863101c35f091fb2cc16532d0d0db377c544ef4af1f770",
+    "content_sha256": "5d4fc74889cd831eec57e1d04a0f84a1d47344289f3b6f7142d03e721e13b1d1",
+    "listed_content_files": 57,
+    "content_changes_since_release": [
+      {
+        "path": "docs/INSTALL.zh-CN.md",
+        "change": "Visible release label v0.3.6 -> v0.3.7; URL unchanged."
+      }
+    ],
+    "matches_immutable_v0_3_7_source_content": false,
+    "release_tag_and_assets_modified": false,
+    "runtime_skill_behavior_showcase_unchanged": true,
+    "verification": "All 57 current inventory hashes checked; 16 Markdown documents checked for relative file/image links and explicit release-label consistency. Existing release verification and runtime evidence retained."
+  }
 }
