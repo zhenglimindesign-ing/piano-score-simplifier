@@ -1,0 +1,103 @@
+{
+  "tool_version": "0.3.7",
+  "overall": "REVIEW_REQUIRED",
+  "scope": "Source mm.1-16, printed p.43",
+  "checks": {
+    "schema": {
+      "status": "PASS",
+      "evidence": {
+        "errors": []
+      }
+    },
+    "timeline": {
+      "status": "PASS",
+      "evidence": {
+        "errors": [],
+        "unsupported": []
+      }
+    },
+    "difficulty": {
+      "status": "PASS",
+      "evidence": {
+        "profile": "L3",
+        "violations": []
+      }
+    },
+    "hand_coordination": {
+      "status": "PASS",
+      "evidence": {
+        "shared_key_windows": []
+      }
+    },
+    "midi_readback": {
+      "status": "PASS",
+      "evidence": {
+        "matched_events": 228
+      }
+    },
+    "render": {
+      "status": "PASS",
+      "evidence": {
+        "renderer": "MuseScore4 4.7.5",
+        "style_sha256": "21491ae8f2c464e819e07da363445f7118538bd44302c337256888d3c38e1a38",
+        "source_musicxml_sha256": "7b3992b2131ab53d217867cea584e0182a9600500a3b607541d7730a014713f2",
+        "render_path": "direct-musicxml",
+        "log_paths": [
+          "render-step-1.json"
+        ],
+        "returncode": 0,
+        "stderr_tail": [],
+        "pages": 1
+      }
+    },
+    "page_inspection": {
+      "status": "PASS",
+      "evidence": "Agent viewed the sole final A4 page: clefs, accidentals, ties, triplets, grace/roll marks where present, readable spacing, all16 bars and ending; source comparison retained privately.",
+      "by": "agent"
+    },
+    "source_fidelity": {
+      "status": "PASS",
+      "evidence": "Bounded agent audit against Schirmer/Oesterle plate21360 p43, mm1-16: pitches/rhythms/ties and declared omissions/revoicings; own engraving, fingering/pedal excluded, exact slur attachment is interpretive. No human or critical-edition certification.",
+      "by": "agent"
+    },
+    "musical_review": {
+      "status": "NOT_RUN",
+      "evidence": null
+    },
+    "human_listening": {
+      "status": "NOT_RUN",
+      "evidence": null
+    },
+    "human_playing": {
+      "status": "NOT_RUN",
+      "evidence": null
+    }
+  },
+  "protected_timed_melodies": {
+    "rh_voice1": true,
+    "lh_reply_bars9_14": true
+  },
+  "source_audit_scope": "Agent pitch/rhythm/tie audit and source-mapped declared changes. Slur endpoints/engraving placement interpretive; fingering/pedal excluded.",
+  "human_musical_review": "NOT_RUN",
+  "human_listening": "NOT_RUN",
+  "human_playing": "NOT_RUN",
+  "calibrated_grading": "NOT_RUN",
+  "artifacts": {
+    "l3.pdf": {
+      "sha256": "097807a039aa6a8bc0b93f5fc2394f724f55547496fd57e8259a0d6b447d779e",
+      "bytes": 54891
+    },
+    "l3.mid": {
+      "sha256": "01d098e949c072a88524d14842d5ee8f90d64a8a834038b4f5dc43c4993de6f5",
+      "bytes": 1902
+    },
+    "l3.musicxml": {
+      "sha256": "7b3992b2131ab53d217867cea584e0182a9600500a3b607541d7730a014713f2",
+      "bytes": 107064
+    },
+    "l3.png": {
+      "sha256": "4f84d1a0bcb5310e4e9976d2341629d8d11e132a789eb491b062e298e57165e1",
+      "bytes": 120716
+    }
+  }
+}

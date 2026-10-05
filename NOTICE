@@ -12,7 +12,18 @@ Dependencies are installed separately, not bundled in this distribution:
 - pypdf 6.19.0: BSD-3-Clause. https://github.com/py-pdf/pypdf
 
 MuseScore, Poppler and optional FFmpeg are separate tools. MuseScore is GPLv3;
-their code, executables and fonts are not included here. Runtime MusicXML
-schemas are fetched from their declared upstream URLs and are not bundled.
-No score files, private repository history or private acceptance logs are included.
-依赖与排谱工具独立安装；本包不含第三方程序、字体、schema、乐谱、私有历史或私有验收日志。
+no tool executable or source-code dependency is bundled. Runtime MusicXML schemas
+are fetched from their declared upstream URLs and are not bundled.
+
+The source distribution includes our own public-domain October transcription,
+arrangements and renders, with source/rights metadata under examples/tchaikovsky-october/.
+The underlying Schirmer/Oesterle 1909 notation has a documented US public-domain basis.
+Source scans, including the 1948 scan, are excluded. The example PDFs embed Edwin
+and Leland under SIL OFL 1.1; complete notices are included in that example's licenses/.
+No standalone font binaries are distributed. The portable skill ZIP contains no scores.
+Private repository history, private acceptance logs and unrelated inputs are excluded.
+
+依赖与排谱工具独立安装；不含第三方程序或运行 schema。源码分发含重新转录／编配／
+渲染的《十月》公开样例，历史记谱有美国公版依据，附来源与权利说明；不含任何来源
+扫描（包括 1948 年版）。PDF 内嵌 Edwin / Leland 字体并保留 SIL OFL 1.1 通知，不分发
+独立字体文件。便携 skill ZIP 不含乐谱；所有公开包均不含私有历史或私有验收日志。

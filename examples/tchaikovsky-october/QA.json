@@ -1,0 +1,66 @@
+{
+  "overall": "PUBLIC_EXAMPLE_REVIEW_REQUIRED",
+  "version": "0.3.7",
+  "original": "INCOMPLETE_ORNAMENT_PLAYBACK_NOT_CERTIFIED",
+  "reductions": "REVIEW_REQUIRED",
+  "source_basis": "SOURCE.json",
+  "metrics_basis": "METRICS.json",
+  "score_pages": [
+    {
+      "file": "original.pdf",
+      "pages": 1,
+      "agent_visual_review": "PASS",
+      "human_review": "NOT_RUN"
+    },
+    {
+      "file": "l1.pdf",
+      "pages": 1,
+      "agent_visual_review": "PASS",
+      "human_review": "NOT_RUN"
+    },
+    {
+      "file": "l2.pdf",
+      "pages": 1,
+      "agent_visual_review": "PASS",
+      "human_review": "NOT_RUN"
+    },
+    {
+      "file": "l3.pdf",
+      "pages": 1,
+      "agent_visual_review": "PASS",
+      "human_review": "NOT_RUN"
+    }
+  ],
+  "public_source_scan_bundled": false,
+  "old_L2_reused": false,
+  "protected_melodies": {
+    "original": {
+      "rh_voice1": true,
+      "lh_reply_bars9_14": true
+    },
+    "l1": {
+      "rh_voice1": true,
+      "lh_reply_bars9_14": true
+    },
+    "l2": {
+      "rh_voice1": true,
+      "lh_reply_bars9_14": true
+    },
+    "l3": {
+      "rh_voice1": true,
+      "lh_reply_bars9_14": true
+    }
+  },
+  "human_listening_playing_calibration": "NOT_RUN",
+  "midi_boundary": "Original is MuseScore-generated and unverified for exact grace/roll playback; L1/L2/L3 serialized MIDI readback PASS. Internal MIDI has uniform velocity/no expressive pedal/dynamics/rubato.",
+  "comparison": {
+    "file": "comparison.pdf",
+    "pages": 5,
+    "score_page_content_streams_identical": true,
+    "agent_visual_review": "PASS",
+    "human_review": "NOT_RUN",
+    "sha256": "58a75dc4bf2958cf688b290c78062ae7b6748966ff87a7cd9592a66353fd7aca",
+    "review_scope": "Guide page and every final combined score page viewed; four score content streams equal standalone PDFs"
+  },
+  "preview_scope": "Same-scale first four bars, all four versions"
+}

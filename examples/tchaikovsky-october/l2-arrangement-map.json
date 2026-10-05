@@ -1,0 +1,368 @@
+{
+  "level": "L2",
+  "profile": {
+    "span_semitones": 9,
+    "simultaneous_pitch_limit": 3
+  },
+  "protected_roles": "RH voice1 in all16 bars; LH thematic reply voice5 in bars9-14",
+  "changes": [
+    {
+      "source_ids": [
+        "P1:m1:n10"
+      ],
+      "measure": 1,
+      "staff": "2",
+      "source_pitch": 62,
+      "output_pitch": null,
+      "reason": "Omit accompaniment member to reduce held span/voice count"
+    },
+    {
+      "source_ids": [
+        "P1:m1:n13"
+      ],
+      "measure": 1,
+      "staff": "2",
+      "source_pitch": 61,
+      "output_pitch": 49,
+      "reason": "Octave revoice accompaniment to reduce held reach/register travel"
+    },
+    {
+      "source_ids": [
+        "P1:m2:n14"
+      ],
+      "measure": 2,
+      "staff": "2",
+      "source_pitch": 62,
+      "output_pitch": null,
+      "reason": "Omit accompaniment member to reduce held span/voice count"
+    },
+    {
+      "source_ids": [
+        "P1:m4:n14"
+      ],
+      "measure": 4,
+      "staff": "2",
+      "source_pitch": 58,
+      "output_pitch": null,
+      "reason": "Omit accompaniment member to reduce held span/voice count"
+    },
+    {
+      "source_ids": [
+        "P1:m4:n15"
+      ],
+      "measure": 4,
+      "staff": "2",
+      "source_pitch": 57,
+      "output_pitch": null,
+      "reason": "Omit accompaniment member to reduce held span/voice count"
+    },
+    {
+      "source_ids": [
+        "P1:m5:n11"
+      ],
+      "measure": 5,
+      "staff": "2",
+      "source_pitch": 64,
+      "output_pitch": null,
+      "reason": "Omit accompaniment member to reduce held span/voice count"
+    },
+    {
+      "source_ids": [
+        "P1:m5:n15"
+      ],
+      "measure": 5,
+      "staff": "2",
+      "source_pitch": 65,
+      "output_pitch": null,
+      "reason": "Omit accompaniment member to reduce held span/voice count"
+    },
+    {
+      "source_ids": [
+        "P1:m6:n12"
+      ],
+      "measure": 6,
+      "staff": "2",
+      "source_pitch": 67,
+      "output_pitch": null,
+      "reason": "Omit accompaniment member to reduce held span/voice count"
+    },
+    {
+      "source_ids": [
+        "P1:m6:n15"
+      ],
+      "measure": 6,
+      "staff": "2",
+      "source_pitch": 60,
+      "output_pitch": 48,
+      "reason": "Octave revoice accompaniment to reduce held reach/register travel"
+    },
+    {
+      "source_ids": [
+        "P1:m6:n16"
+      ],
+      "measure": 6,
+      "staff": "2",
+      "source_pitch": 66,
+      "output_pitch": null,
+      "reason": "Omit accompaniment member to reduce held span/voice count"
+    },
+    {
+      "source_ids": [
+        "P1:m7:n17"
+      ],
+      "measure": 7,
+      "staff": "2",
+      "source_pitch": 67,
+      "output_pitch": null,
+      "reason": "Omit accompaniment member to reduce held span/voice count"
+    },
+    {
+      "source_ids": [
+        "P1:m7:n22"
+      ],
+      "measure": 7,
+      "staff": "2",
+      "source_pitch": 65,
+      "output_pitch": null,
+      "reason": "Omit accompaniment member to reduce held span/voice count"
+    },
+    {
+      "source_ids": [
+        "P1:m9:n11"
+      ],
+      "measure": 9,
+      "staff": "2",
+      "source_pitch": 50,
+      "output_pitch": null,
+      "reason": "Omit accompaniment member to reduce held span/voice count"
+    },
+    {
+      "source_ids": [
+        "P1:m9:n12"
+      ],
+      "measure": 9,
+      "staff": "2",
+      "source_pitch": 53,
+      "output_pitch": null,
+      "reason": "Omit accompaniment member to reduce held span/voice count"
+    },
+    {
+      "source_ids": [
+        "P1:m9:n14"
+      ],
+      "measure": 9,
+      "staff": "2",
+      "source_pitch": 55,
+      "output_pitch": 67,
+      "reason": "Octave revoice accompaniment to reduce held reach/register travel"
+    },
+    {
+      "source_ids": [
+        "P1:m9:n15"
+      ],
+      "measure": 9,
+      "staff": "2",
+      "source_pitch": 57,
+      "output_pitch": null,
+      "reason": "Omit accompaniment member to reduce held span/voice count"
+    },
+    {
+      "source_ids": [
+        "P1:m10:n14"
+      ],
+      "measure": 10,
+      "staff": "2",
+      "source_pitch": 53,
+      "output_pitch": 65,
+      "reason": "Octave revoice accompaniment to reduce held reach/register travel"
+    },
+    {
+      "source_ids": [
+        "P1:m11:n10"
+      ],
+      "measure": 11,
+      "staff": "2",
+      "source_pitch": 43,
+      "output_pitch": 55,
+      "reason": "Octave revoice accompaniment to reduce held reach/register travel"
+    },
+    {
+      "source_ids": [
+        "P1:m11:n13"
+      ],
+      "measure": 11,
+      "staff": "2",
+      "source_pitch": 48,
+      "output_pitch": 60,
+      "reason": "Octave revoice accompaniment to reduce held reach/register travel"
+    },
+    {
+      "source_ids": [
+        "P1:m11:n14"
+      ],
+      "measure": 11,
+      "staff": "2",
+      "source_pitch": 50,
+      "output_pitch": 62,
+      "reason": "Octave revoice accompaniment to reduce held reach/register travel"
+    },
+    {
+      "source_ids": [
+        "P1:m12:n18"
+      ],
+      "measure": 12,
+      "staff": "2",
+      "source_pitch": 45,
+      "output_pitch": 57,
+      "reason": "Octave revoice accompaniment to reduce held reach/register travel"
+    },
+    {
+      "source_ids": [
+        "P1:m12:n19"
+      ],
+      "measure": 12,
+      "staff": "2",
+      "source_pitch": 52,
+      "output_pitch": 64,
+      "reason": "Octave revoice accompaniment to reduce held reach/register travel"
+    },
+    {
+      "source_ids": [
+        "P1:m13:n17"
+      ],
+      "measure": 13,
+      "staff": "2",
+      "source_pitch": 57,
+      "output_pitch": 69,
+      "reason": "Octave revoice accompaniment to reduce held reach/register travel"
+    },
+    {
+      "source_ids": [
+        "P1:m14:n15"
+      ],
+      "measure": 14,
+      "staff": "2",
+      "source_pitch": 55,
+      "output_pitch": 67,
+      "reason": "Octave revoice accompaniment to reduce held reach/register travel"
+    },
+    {
+      "source_ids": [
+        "P1:m14:n16"
+      ],
+      "measure": 14,
+      "staff": "2",
+      "source_pitch": 57,
+      "output_pitch": null,
+      "reason": "Omit accompaniment member to reduce held span/voice count"
+    },
+    {
+      "source_ids": [
+        "P1:m14:n17"
+      ],
+      "measure": 14,
+      "staff": "2",
+      "source_pitch": 53,
+      "output_pitch": 65,
+      "reason": "Octave revoice accompaniment to reduce held reach/register travel"
+    },
+    {
+      "source_ids": [
+        "P1:m15:n13"
+      ],
+      "measure": 15,
+      "staff": "2",
+      "source_pitch": 60,
+      "output_pitch": 48,
+      "reason": "Octave revoice accompaniment to reduce held reach/register travel"
+    },
+    {
+      "source_ids": [
+        "P1:m1:n4"
+      ],
+      "measure": 1,
+      "staff": "1",
+      "source_pitch": 65,
+      "output_pitch": null,
+      "reason": "Omit accompaniment member to reduce held span/voice count"
+    },
+    {
+      "source_ids": [
+        "P1:m1:n6"
+      ],
+      "measure": 1,
+      "staff": "1",
+      "source_pitch": 67,
+      "output_pitch": null,
+      "reason": "Omit accompaniment member to reduce held span/voice count"
+    },
+    {
+      "source_ids": [
+        "P1:m2:n7"
+      ],
+      "measure": 2,
+      "staff": "1",
+      "source_pitch": 65,
+      "output_pitch": null,
+      "reason": "Omit accompaniment member to reduce held span/voice count"
+    },
+    {
+      "source_ids": [
+        "P1:m2:n10",
+        "P1:m3:n4"
+      ],
+      "measure": 2,
+      "staff": "1",
+      "source_pitch": 62,
+      "output_pitch": null,
+      "reason": "Omit accompaniment member to reduce held span/voice count"
+    },
+    {
+      "source_ids": [
+        "P1:m3:n7"
+      ],
+      "measure": 3,
+      "staff": "1",
+      "source_pitch": 60,
+      "output_pitch": null,
+      "reason": "Omit accompaniment member to reduce held span/voice count"
+    },
+    {
+      "source_ids": [
+        "P1:m4:n9"
+      ],
+      "measure": 4,
+      "staff": "1",
+      "source_pitch": 64,
+      "output_pitch": null,
+      "reason": "Omit accompaniment member to reduce held span/voice count"
+    },
+    {
+      "source_ids": [
+        "P1:m4:n11"
+      ],
+      "measure": 4,
+      "staff": "1",
+      "source_pitch": 64,
+      "output_pitch": null,
+      "reason": "Omit accompaniment member to reduce held span/voice count"
+    },
+    {
+      "source_ids": [
+        "P1:m16:n12"
+      ],
+      "measure": 16,
+      "staff": "1",
+      "source_pitch": 53,
+      "output_pitch": null,
+      "reason": "Omit accompaniment member to reduce held span/voice count"
+    }
+  ],
+  "musical_losses": [
+    "Five source grace notes omitted; four arpeggiation symbols flattened into simultaneous attacks.",
+    "Fingering and pedal are not reproduced.",
+    "Some accompaniment tones/registers omitted or changed; see source mapping."
+  ],
+  "human_playing": "NOT_RUN",
+  "calibrated_grading": "NOT_RUN"
+}

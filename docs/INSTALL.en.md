@@ -8,7 +8,7 @@ Score Simplifier handles solo-piano scores with an established source and permis
 
 Score Simplifier is the public project name; the current skill ID and install-folder name remain `piano-score-reduction` for compatibility.
 
-Download `piano-score-reduction-<version>.zip` from the [v0.3.6 release](https://github.com/zhenglimindesign-ing/piano-score-simplifier/releases/tag/v0.3.6), then extract it. Use its complete `piano-score-reduction` folder. If you received a repository archive, use `skills/piano-score-reduction` instead and copy the root `LICENSE` and `NOTICE` into the installed folder. Keep these contents together:
+Download `piano-score-reduction-<version>.zip` from the [v0.3.7 release](https://github.com/zhenglimindesign-ing/piano-score-simplifier/releases/tag/v0.3.7), then extract it. Use its complete `piano-score-reduction` folder. If you received a repository archive, use `skills/piano-score-reduction` instead and copy the root `LICENSE` and `NOTICE` into the installed folder. Keep these contents together:
 
 ```text
 piano-score-reduction/
@@ -24,6 +24,8 @@ piano-score-reduction/
 Copying only `SKILL.md` omits scripts and the engraving style. Preserve the old installation and score outputs when updating; use a separate test project if the installed version is uncertain.
 
 ## 2. Place or load it in your host
+
+**Evidence version:** the host trials below are inherited v0.3.6 evidence (with earlier full-workflow evidence identified). v0.3.7 has new local package/runtime checks; independent v0.3.7 Claude Code / Claude web / ChatGPT Work trials were NOT_RUN. See the [current evidence matrix](SUPPORT.en.md).
 
 | Host | Installation / entrypoint | Verified boundary |
 |---|---|---|

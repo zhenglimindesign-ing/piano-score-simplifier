@@ -1,0 +1,67 @@
+{
+  "level": "L3",
+  "profile": {
+    "span_semitones": 12,
+    "simultaneous_pitch_limit": 4
+  },
+  "protected_roles": "RH voice1 in all16 bars; LH thematic reply voice5 in bars9-14",
+  "changes": [
+    {
+      "source_ids": [
+        "P1:m6:n12"
+      ],
+      "measure": 6,
+      "staff": "2",
+      "source_pitch": 67,
+      "output_pitch": 55,
+      "reason": "Octave revoice accompaniment to reduce held reach/register travel"
+    },
+    {
+      "source_ids": [
+        "P1:m6:n16"
+      ],
+      "measure": 6,
+      "staff": "2",
+      "source_pitch": 66,
+      "output_pitch": 54,
+      "reason": "Octave revoice accompaniment to reduce held reach/register travel"
+    },
+    {
+      "source_ids": [
+        "P1:m9:n11"
+      ],
+      "measure": 9,
+      "staff": "2",
+      "source_pitch": 50,
+      "output_pitch": null,
+      "reason": "Omit accompaniment member to reduce held span/voice count"
+    },
+    {
+      "source_ids": [
+        "P1:m11:n10"
+      ],
+      "measure": 11,
+      "staff": "2",
+      "source_pitch": 43,
+      "output_pitch": 55,
+      "reason": "Octave revoice accompaniment to reduce held reach/register travel"
+    },
+    {
+      "source_ids": [
+        "P1:m12:n18"
+      ],
+      "measure": 12,
+      "staff": "2",
+      "source_pitch": 45,
+      "output_pitch": 57,
+      "reason": "Octave revoice accompaniment to reduce held reach/register travel"
+    }
+  ],
+  "musical_losses": [
+    "Five source grace notes omitted; four arpeggiation symbols flattened into simultaneous attacks.",
+    "Fingering and pedal are not reproduced.",
+    "Some accompaniment tones/registers omitted or changed; see source mapping."
+  ],
+  "human_playing": "NOT_RUN",
+  "calibrated_grading": "NOT_RUN"
+}

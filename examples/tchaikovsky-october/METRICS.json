@@ -1,0 +1,208 @@
+{
+  "original": {
+    "pitched_written_events": 253,
+    "merged_sounding_events": 229,
+    "hands": {
+      "L": {
+        "max_span": 17,
+        "max_simultaneous_pitches": 4,
+        "max_centroid_jump": 18.0,
+        "p95_centroid_jump": 16.5,
+        "jump_advisories": [],
+        "max_attack_groups_per_second": 3,
+        "density_advisory": false
+      },
+      "R": {
+        "max_span": 12,
+        "max_simultaneous_pitches": 3,
+        "max_centroid_jump": 12.0,
+        "p95_centroid_jump": 9.0,
+        "jump_advisories": [],
+        "max_attack_groups_per_second": 3,
+        "density_advisory": false
+      }
+    },
+    "metric_basis": "Timed written holds only; five graces and roll onset offsets excluded",
+    "duration_quarters": "64",
+    "quarter_bpm": 52
+  },
+  "l1": {
+    "pitched_written_events": 196,
+    "merged_sounding_events": 173,
+    "hands": {
+      "L": {
+        "max_span": 7,
+        "max_simultaneous_pitches": 2,
+        "max_centroid_jump": 9.5,
+        "p95_centroid_jump": 7.0,
+        "jump_advisories": [
+          {
+            "at": "33",
+            "semitones": 9.0,
+            "seconds": 2.3076923076923075
+          },
+          {
+            "at": "45",
+            "semitones": 9.0,
+            "seconds": 0.5769230769230769
+          },
+          {
+            "at": "56",
+            "semitones": 9.5,
+            "seconds": 0.38461538461538464
+          }
+        ],
+        "max_attack_groups_per_second": 3,
+        "density_advisory": false
+      },
+      "R": {
+        "max_span": 0,
+        "max_simultaneous_pitches": 1,
+        "max_centroid_jump": 12.0,
+        "p95_centroid_jump": 7.0,
+        "jump_advisories": [
+          {
+            "at": "13",
+            "semitones": 9.0,
+            "seconds": 0.5769230769230769
+          },
+          {
+            "at": "61/3",
+            "semitones": 12.0,
+            "seconds": 2.6923076923076925
+          },
+          {
+            "at": "83/2",
+            "semitones": 12.0,
+            "seconds": 1.1538461538461537
+          },
+          {
+            "at": "145/3",
+            "semitones": 8.0,
+            "seconds": 0.9615384615384616
+          }
+        ],
+        "max_attack_groups_per_second": 3,
+        "density_advisory": false
+      }
+    },
+    "metric_basis": "Literal arranged written holds, no pedal model",
+    "duration_quarters": "64",
+    "quarter_bpm": 52
+  },
+  "l2": {
+    "pitched_written_events": 230,
+    "merged_sounding_events": 207,
+    "hands": {
+      "L": {
+        "max_span": 9,
+        "max_simultaneous_pitches": 3,
+        "max_centroid_jump": 16.333333333333332,
+        "p95_centroid_jump": 15.333333333333334,
+        "jump_advisories": [
+          {
+            "at": "25",
+            "semitones": 15.333333333333334,
+            "seconds": 1.1538461538461537
+          },
+          {
+            "at": "26",
+            "semitones": 14.333333333333334,
+            "seconds": 1.1538461538461537
+          },
+          {
+            "at": "27",
+            "semitones": 15.0,
+            "seconds": 1.1538461538461537
+          },
+          {
+            "at": "28",
+            "semitones": 14.0,
+            "seconds": 1.1538461538461537
+          },
+          {
+            "at": "29",
+            "semitones": 16.333333333333332,
+            "seconds": 1.1538461538461537
+          },
+          {
+            "at": "30",
+            "semitones": 16.333333333333332,
+            "seconds": 1.1538461538461537
+          },
+          {
+            "at": "31",
+            "semitones": 12.666666666666666,
+            "seconds": 1.1538461538461537
+          },
+          {
+            "at": "58",
+            "semitones": 13.0,
+            "seconds": 1.1538461538461537
+          },
+          {
+            "at": "59",
+            "semitones": 12.333333333333334,
+            "seconds": 1.1538461538461537
+          },
+          {
+            "at": "60",
+            "semitones": 12.333333333333334,
+            "seconds": 1.1538461538461537
+          },
+          {
+            "at": "61",
+            "semitones": 12.666666666666666,
+            "seconds": 1.1538461538461537
+          },
+          {
+            "at": "62",
+            "semitones": 16.166666666666668,
+            "seconds": 1.1538461538461537
+          }
+        ],
+        "max_attack_groups_per_second": 3,
+        "density_advisory": false
+      },
+      "R": {
+        "max_span": 9,
+        "max_simultaneous_pitches": 3,
+        "max_centroid_jump": 12.0,
+        "p95_centroid_jump": 8.0,
+        "jump_advisories": [],
+        "max_attack_groups_per_second": 3,
+        "density_advisory": false
+      }
+    },
+    "metric_basis": "Literal arranged written holds, no pedal model",
+    "duration_quarters": "64",
+    "quarter_bpm": 52
+  },
+  "l3": {
+    "pitched_written_events": 252,
+    "merged_sounding_events": 228,
+    "hands": {
+      "L": {
+        "max_span": 12,
+        "max_simultaneous_pitches": 4,
+        "max_centroid_jump": 17.5,
+        "p95_centroid_jump": 16.333333333333332,
+        "jump_advisories": [],
+        "max_attack_groups_per_second": 3,
+        "density_advisory": false
+      },
+      "R": {
+        "max_span": 12,
+        "max_simultaneous_pitches": 3,
+        "max_centroid_jump": 12.0,
+        "p95_centroid_jump": 9.0,
+        "jump_advisories": [],
+        "max_attack_groups_per_second": 3,
+        "density_advisory": false
+      }
+    },
+    "metric_basis": "Literal arranged written holds, no pedal model",
+    "duration_quarters": "64",
+    "quarter_bpm": 52
+  }
+}

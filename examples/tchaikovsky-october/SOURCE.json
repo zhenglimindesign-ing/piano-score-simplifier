@@ -1,0 +1,29 @@
+{
+  "edition": "The Seasons Op.37a, Schirmer Library vol.909, edited/fingered by Louis Oesterle, New York G.Schirmer, 1909, plate 21360",
+  "scan_copy": "NYPL/Internet Archive scan of the 1909 edition; title also bears a 1937 renewal-assignment notice. No source scan is redistributed.",
+  "printed_page": 43,
+  "pdf_page_one_based": 51,
+  "scope": "mm.1-16, opening section through its D-minor arrival; original continues at m17",
+  "scan_url": "https://archive.org/download/seasonsop37atwel00tcha/seasonsop37atwel00tcha.pdf",
+  "catalog_url": "https://archive.org/details/seasonsop37atwel00tcha",
+  "edition_catalog_url": "https://imslp.org/wiki/The_Seasons,_Op.37a_(Tchaikovsky,_Pyotr)",
+  "scan_sha256": "cea010783a8feca4963bd2c3428fba7c68467711f09c683378859a47ec7bb8e1",
+  "basis": "US public domain: underlying 1909 published notation is beyond its maximum 95-year copyright term. The 1937 renewal notice does not create a new term for that 1909 content.",
+  "copyright_authority": "https://www.copyright.gov/what-is-copyright/",
+  "editor_lifespan": "1854-1932",
+  "scope_limit": "US publication basis documented; this is not a worldwide legal certification or permission for unrelated editions.",
+  "transcription_method": "Fresh explicit note/rhythm/voice table after visual reading of this Schirmer page. A prior 1948-based event listing was viewed only as a comparison aid; no old L2 or old MusicXML is loaded by the new builder. Schirmer is the notation authority.",
+  "transcription_boundary": "Source pitches/rhythms/ties, 5 graces, 4 roll symbols and main phrasing/dynamics audited by agent. Fingering and pedal excluded; some slur/direction attachment positions are interpretive. Critical-edition certification and human source review NOT_RUN.",
+  "project_contributions": "Project transcription/editing/arrangement/rendering contributions use the root MIT license where copyright applies; the historical public-domain material remains public domain. This does not license other input scores.",
+  "pdf_fonts": [
+    "Edwin-Roman",
+    "Edwin-Italic",
+    "Edwin-Bold",
+    "Leland"
+  ],
+  "font_basis": "SIL Open Font License 1.1; PDFs embed these fonts, no standalone font binaries are distributed. Full upstream notices retained in licenses/.",
+  "font_upstream": [
+    "https://github.com/MuseScoreFonts/Edwin",
+    "https://github.com/MuseScoreFonts/Leland"
+  ]
+}

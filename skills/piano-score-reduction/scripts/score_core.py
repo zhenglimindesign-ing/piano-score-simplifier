@@ -17,7 +17,7 @@ import zipfile
 
 from lxml import etree as E
 
-VERSION = "0.3.6"
+VERSION = "0.3.7"
 # Gates the scripts must execute and pass; review gates need a person or agent to look.
 AUTOMATED_GATES = ("schema", "timeline", "difficulty", "hand_coordination")
 PROFILES = {"L1": (7, 2, 7, 3), "L2": (9, 3, 12, 5), "L3": (12, 4, 19, 8)}

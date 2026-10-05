@@ -1,8 +1,8 @@
 {
-  "manifest_version": "public-staging-0.1",
-  "implementation_version": "0.3.6",
-  "status": "STAGING",
-  "content_sha256": "049a78d46d8c10bf16ff808dc47d6ef877fb6cf66d467257be7e0bf68db72aac",
+  "manifest_version": "distribution-content-1.0",
+  "implementation_version": "0.3.7",
+  "status": "CONTENT_SNAPSHOT",
+  "content_sha256": "865e1cc386b94e03f65276e86352288ffec79798c879b0fa9d34b3ecbb5fd02e",
   "files": [
     {
       "path": "LICENSE",
@@ -11,28 +11,228 @@
     },
     {
       "path": "NOTICE",
-      "bytes": 1167,
-      "sha256": "1891060ef559a644539487aecffe5fb139e0be0c5c9110b5a1cc98445210a54b"
+      "bytes": 2012,
+      "sha256": "39a84edfd65cfb03dc445e74915c97f47f121b46128bd6c01db09590bf3a2eb9"
     },
     {
       "path": "README.md",
-      "bytes": 11177,
-      "sha256": "39b14d21098db0e34a0432de78575011cd4971f9b0f3271a1876cd5d3014c17b"
+      "bytes": 10041,
+      "sha256": "9bd84cbb359616d6ae3239436b2e65d7c3f88d227fd9b06446d69658c89c3ba6"
     },
     {
       "path": "README.zh-CN.md",
-      "bytes": 270,
-      "sha256": "fec3376131ea66ecc40f8f1e20ffa9e1b68f307aecde8e25cc88f2487c80fb5a"
+      "bytes": 8955,
+      "sha256": "9855640d69e04d7c84aca6e1d5477e307adc05c538c2a5524b5efc63d6115dad"
+    },
+    {
+      "path": "RELEASE_NOTES.md",
+      "bytes": 4353,
+      "sha256": "1818e1920fb37af2962e3bcace8aefd334a6e8c84feb8c8cf01de17e8d73e87a"
+    },
+    {
+      "path": "docs/DISTRIBUTION.en.md",
+      "bytes": 1751,
+      "sha256": "ee6ba72eeb3f0c952d004fc969efad382f49b8740e190e17948bd2fe2f2d0d4c"
+    },
+    {
+      "path": "docs/DISTRIBUTION.zh-CN.md",
+      "bytes": 1508,
+      "sha256": "67a951e8f71d6e03aac811f6cfae87b03003be4def68ce283d588ff33af2fe17"
     },
     {
       "path": "docs/INSTALL.en.md",
-      "bytes": 7565,
-      "sha256": "8f47718327d676ae28d58e767332ad9bf06b3d4cfae8894aacb7c0bb82ec0770"
+      "bytes": 8006,
+      "sha256": "53e7730afe9075b4664c8d96b4a19b858680191a545ed335a19306c2d295c7f9"
     },
     {
       "path": "docs/INSTALL.zh-CN.md",
-      "bytes": 6791,
-      "sha256": "f3a9228237dbe56bf07c11a9ac5005820929f80afd51eee70c650a434ad37d68"
+      "bytes": 7199,
+      "sha256": "d371dddf2de2ded6c38fcaff1a3e3a6c316fdd2e24f02794bdf9e78984b07371"
+    },
+    {
+      "path": "docs/SUPPORT.en.md",
+      "bytes": 2022,
+      "sha256": "d6ebbf280f8a4ad4cbf4aa6a89aec1c53a2a356dca32089d0278d62c591d86b8"
+    },
+    {
+      "path": "docs/SUPPORT.zh-CN.md",
+      "bytes": 1729,
+      "sha256": "78b325a0267c4978331e08fbded06ad7086cfb86a41aee3a7eca305086c17e5d"
+    },
+    {
+      "path": "examples/tchaikovsky-october/METRICS.json",
+      "bytes": 5555,
+      "sha256": "4ae87ac530a9977191287a1e06bcb8622d60a541183ebf68fd49593d5eade713"
+    },
+    {
+      "path": "examples/tchaikovsky-october/QA.json",
+      "bytes": 1890,
+      "sha256": "239c9ca670eb5efbe0ef4bd52ca5fe53fcfb496067f17aebcf2218ee5aaa160a"
+    },
+    {
+      "path": "examples/tchaikovsky-october/README.md",
+      "bytes": 5534,
+      "sha256": "477ef89f61901ed695ae7e0352102720ba4eeeeec0d7b41c6cabe3ee24c7fbd8"
+    },
+    {
+      "path": "examples/tchaikovsky-october/README.zh-CN.md",
+      "bytes": 5082,
+      "sha256": "c31d7a803448c1ef3d62168841b7a0e39f7b0d0f537facbfb802a957fc330f45"
+    },
+    {
+      "path": "examples/tchaikovsky-october/SOURCE.en.md",
+      "bytes": 2196,
+      "sha256": "42ac961395381945b6094ad55c06a194e1339323c9281aa0d0ed2aa485430c1e"
+    },
+    {
+      "path": "examples/tchaikovsky-october/SOURCE.json",
+      "bytes": 2384,
+      "sha256": "af3d713340204cbe0bc3c24d3bac32a14f3190ddc0f592f9fb610a11037f8a6e"
+    },
+    {
+      "path": "examples/tchaikovsky-october/SOURCE.zh-CN.md",
+      "bytes": 2051,
+      "sha256": "dda6a67ddbd83e7a812deed1e3b520526bd107661466a8b639c4dfbd30ab86a6"
+    },
+    {
+      "path": "examples/tchaikovsky-october/comparison.pdf",
+      "bytes": 211496,
+      "sha256": "58a75dc4bf2958cf688b290c78062ae7b6748966ff87a7cd9592a66353fd7aca"
+    },
+    {
+      "path": "examples/tchaikovsky-october/comparison.png",
+      "bytes": 93781,
+      "sha256": "b7377c60bf39b5613629966e71a7a39166ff5811c09fb39d53e7686eb93f5b88"
+    },
+    {
+      "path": "examples/tchaikovsky-october/l1-arrangement-map.json",
+      "bytes": 18975,
+      "sha256": "d9d13dcc916c12f8117915b460845963c0a1aff60d774fb66a7c444ce33b8b50"
+    },
+    {
+      "path": "examples/tchaikovsky-october/l1.mid",
+      "bytes": 1534,
+      "sha256": "e8b8767f564ff0ec3e6eeb972af999b0e67016e912a8f7ccd8fc2aa8baa0a39e"
+    },
+    {
+      "path": "examples/tchaikovsky-october/l1.musicxml",
+      "bytes": 91211,
+      "sha256": "54a81e5845652040dbd1ea58ba1aac29c15de8b07157102571c2ddcebd6dffd9"
+    },
+    {
+      "path": "examples/tchaikovsky-october/l1.pdf",
+      "bytes": 53004,
+      "sha256": "715ceacd1d2b0b04a1eadc4c79ed0696beb92ad557d1dda63ae9b7d31c1c2703"
+    },
+    {
+      "path": "examples/tchaikovsky-october/l1.png",
+      "bytes": 111931,
+      "sha256": "b6a8efa22f5dcb7f83409afd52498769e4ec70bb142f0c04170700a412f21df8"
+    },
+    {
+      "path": "examples/tchaikovsky-october/l1.qa.json",
+      "bytes": 2991,
+      "sha256": "5c8178d8c34d7a91e5e63a85b53060446b4dad953f6f20065ee8a1b012c582b9"
+    },
+    {
+      "path": "examples/tchaikovsky-october/l2-arrangement-map.json",
+      "bytes": 8834,
+      "sha256": "f9c4da2344233e012c55e96696c613d36cd644895c4521d04d9588ca8a5c3ee7"
+    },
+    {
+      "path": "examples/tchaikovsky-october/l2.mid",
+      "bytes": 1771,
+      "sha256": "dc029ec80cc7849308d2ae39d9aa2334b721ce057510e667c375e6372b3aaae3"
+    },
+    {
+      "path": "examples/tchaikovsky-october/l2.musicxml",
+      "bytes": 100763,
+      "sha256": "107d9ee1bee56ee1514205347d6fe09db9e093a523133089af6fe86ae0cfbce2"
+    },
+    {
+      "path": "examples/tchaikovsky-october/l2.pdf",
+      "bytes": 54568,
+      "sha256": "9378bae44157c6ecc66113fbbc078f8f92679c8dc2cfc71e6a7bcf6f8e5e52e0"
+    },
+    {
+      "path": "examples/tchaikovsky-october/l2.png",
+      "bytes": 116643,
+      "sha256": "dbd52cf1c0307484f4c87d2e3db4e41ae8e3725a61226641da54d4563f58d422"
+    },
+    {
+      "path": "examples/tchaikovsky-october/l2.qa.json",
+      "bytes": 2992,
+      "sha256": "a6ed6ed9b62c74206e8054e97b7db480a9d3073c3e66494095645451cca5a981"
+    },
+    {
+      "path": "examples/tchaikovsky-october/l3-arrangement-map.json",
+      "bytes": 1726,
+      "sha256": "52379667c7f0f7c9013bb6097da4a285b5d73ab75ba9dbb5cad6cfc62eafe629"
+    },
+    {
+      "path": "examples/tchaikovsky-october/l3.mid",
+      "bytes": 1902,
+      "sha256": "01d098e949c072a88524d14842d5ee8f90d64a8a834038b4f5dc43c4993de6f5"
+    },
+    {
+      "path": "examples/tchaikovsky-october/l3.musicxml",
+      "bytes": 107064,
+      "sha256": "7b3992b2131ab53d217867cea584e0182a9600500a3b607541d7730a014713f2"
+    },
+    {
+      "path": "examples/tchaikovsky-october/l3.pdf",
+      "bytes": 54891,
+      "sha256": "097807a039aa6a8bc0b93f5fc2394f724f55547496fd57e8259a0d6b447d779e"
+    },
+    {
+      "path": "examples/tchaikovsky-october/l3.png",
+      "bytes": 120716,
+      "sha256": "4f84d1a0bcb5310e4e9976d2341629d8d11e132a789eb491b062e298e57165e1"
+    },
+    {
+      "path": "examples/tchaikovsky-october/l3.qa.json",
+      "bytes": 2992,
+      "sha256": "5b17009568f3de6b759cea9706d06160968bb0a19a949bc472947bd57a7a648d"
+    },
+    {
+      "path": "examples/tchaikovsky-october/licenses/Edwin-OFL.txt",
+      "bytes": 4400,
+      "sha256": "c219b0f51e94040fd97188cb88d1a606181bedc3b14d5d2d325dcf02ade74b07"
+    },
+    {
+      "path": "examples/tchaikovsky-october/licenses/Leland-OFL.txt",
+      "bytes": 4401,
+      "sha256": "0fdbcc1f4f6fb21511aecac5ab5669d7000ba22e04a400614c0bc491f26ad556"
+    },
+    {
+      "path": "examples/tchaikovsky-october/original.musescore-unverified.mid",
+      "bytes": 5328,
+      "sha256": "0aea0b75122809854b267e12a9a352003578df18b1f742636a6cc7db540aa5bc"
+    },
+    {
+      "path": "examples/tchaikovsky-october/original.musicxml",
+      "bytes": 109349,
+      "sha256": "84c27fd41089ff336d3ed390f3724f23df1cee7814279da0b226cef5285dab41"
+    },
+    {
+      "path": "examples/tchaikovsky-october/original.pdf",
+      "bytes": 55774,
+      "sha256": "fb83f58bd010ad7a79c5fdfbae351d87dc48bd8a5595520c76ea9df4ddacc52c"
+    },
+    {
+      "path": "examples/tchaikovsky-october/original.png",
+      "bytes": 121727,
+      "sha256": "8a0fc80a8d0bfeb20cef8fd2e46b6e352a793d40dafc9586c98869497808968d"
+    },
+    {
+      "path": "examples/tchaikovsky-october/original.qa.json",
+      "bytes": 3272,
+      "sha256": "ac8d8052c7a2681588dd605034966c5dd9998c3e7fd974efbfd160475cf58c3f"
+    },
+    {
+      "path": "examples/tchaikovsky-october/transcription-events.json",
+      "bytes": 41727,
+      "sha256": "825381d894c5a92fd00dc3920fd1d4d521610a4eba174d509b03bae57358c761"
     },
     {
       "path": "requirements.txt",
@@ -41,8 +241,8 @@
     },
     {
       "path": "skills/piano-score-reduction/SKILL.md",
-      "bytes": 6730,
-      "sha256": "ccd08767c48901c9f0bb9fa36e0c1f8f102e59e8c251ef3bdfccfd425c172d5c"
+      "bytes": 7488,
+      "sha256": "3882c0037b3c7783c103d0e8b7eb77c7dae0d093938bc4f0a7fdf1c02caf770d"
     },
     {
       "path": "skills/piano-score-reduction/assets/readable-a4.mss",
@@ -51,13 +251,13 @@
     },
     {
       "path": "skills/piano-score-reduction/references/workflow.en.md",
-      "bytes": 11479,
-      "sha256": "abe0f31b95a2f6325c2f3b28d02fcebc633893f2b57f6e313adce47a3a7b83cd"
+      "bytes": 11658,
+      "sha256": "a460369b25e4e98bf685acfd96cc338ac8864ca5092c034922a2c24691b6467a"
     },
     {
       "path": "skills/piano-score-reduction/references/workflow.zh-CN.md",
-      "bytes": 10745,
-      "sha256": "e039074bd0c5816bec35a8ca44dbd5a21271b31d4b9343c3144e7ab2acc94ec4"
+      "bytes": 10901,
+      "sha256": "826b822f9b93786ad73cb26a8b4a1d626828a54ddf4675510fcfe03cefbf6bdc"
     },
     {
       "path": "skills/piano-score-reduction/requirements.txt",
@@ -77,7 +277,7 @@
     {
       "path": "skills/piano-score-reduction/scripts/score_core.py",
       "bytes": 60424,
-      "sha256": "bad8d4bfaef562d9cbccadf900349d4396c119ae390ad71c5a3d756aa8d87d58"
+      "sha256": "78a8acf7f555182aa1fe48a391c5b562bde3ca7dc6f6c5f4a9579ab14b519f96"
     },
     {
       "path": "skills/piano-score-reduction/scripts/score_pipeline.py",
@@ -91,17 +291,12 @@
     }
   ],
   "contains_git_history": false,
-  "contains_scores": false,
+  "contains_scores": true,
   "credential_pattern_scan": "NO_MATCHES",
-  "publication_performed": false,
-  "release_gates": {
-    "source_and_musical_acceptance": "NOT_RUN",
-    "level_and_length_coverage": "NOT_RUN",
-    "human_playing": "NOT_RUN",
-    "four_host_acceptance": "NOT_RUN",
-    "clean_install": "NOT_RUN",
-    "project_license_decision": "PENDING_USER_DECISION",
-    "public_contents_approval": "PENDING_USER_DECISION"
-  },
-  "note": "Local staging only. Inventory checks do not establish release acceptance or permission to publish."
+  "inventory_excludes": [
+    "DISTRIBUTION.json",
+    "PUBLICATION.json"
+  ],
+  "publication_record": "PUBLICATION.json",
+  "note": "Immutable content inventory, not a publication or acceptance claim. PUBLICATION.json separately records verified remote release/tag/commit/assets. It is excluded to avoid self-reference and post-publication package mutation. Regenerate this inventory whenever listed content changes."
 }

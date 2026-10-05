@@ -8,7 +8,7 @@ Score Simplifier 处理来源与使用权限明确的钢琴独奏谱。先用短
 
 Score Simplifier 是公开项目名；当前 skill ID 和安装目录名为了兼容仍保留为 `piano-score-reduction`。
 
-从[v0.3.6 发布页](https://github.com/zhenglimindesign-ing/piano-score-simplifier/releases/tag/v0.3.6)下载 `piano-score-reduction-<version>.zip` 并解压，使用其中完整的 `piano-score-reduction` 文件夹。如果拿到的是仓库压缩包，使用 `skills/piano-score-reduction`，并将根目录的 `LICENSE` 与 `NOTICE` 复制到安装后的文件夹。保持以下内容完整：
+从[v0.3.6 发布页](https://github.com/zhenglimindesign-ing/piano-score-simplifier/releases/tag/v0.3.7)下载 `piano-score-reduction-<version>.zip` 并解压，使用其中完整的 `piano-score-reduction` 文件夹。如果拿到的是仓库压缩包，使用 `skills/piano-score-reduction`，并将根目录的 `LICENSE` 与 `NOTICE` 复制到安装后的文件夹。保持以下内容完整：
 
 ```text
 piano-score-reduction/
@@ -24,6 +24,8 @@ piano-score-reduction/
 只复制 `SKILL.md` 会缺少脚本与排谱样式。更新时保留旧安装和曲谱输出；不确定当前版本时，可以另建测试项目。
 
 ## 2. 放到对应宿主，或在宿主中加载
+**证据版本：**下表的宿主试验继承自 v0.3.6（较早的完整流程证据另行注明）。v0.3.7 新做了本地包／运行检查；Claude Code、Claude 网页和 ChatGPT Work 的独立 v0.3.7 试验均为 NOT_RUN。见[本次证据矩阵](SUPPORT.zh-CN.md)。
+
 
 | 宿主 | 安装／使用入口 | 已验证边界 |
 |---|---|---|
