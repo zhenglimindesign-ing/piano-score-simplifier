@@ -1,4 +1,5 @@
-# Score Simplifier
+<picture><source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/zhenglimindesign-ing/zhenglimindesign-ing/main/assets/skill-piano-score-simplifier-dark.png"><img src="https://raw.githubusercontent.com/zhenglimindesign-ing/zhenglimindesign-ing/main/assets/skill-piano-score-simplifier-light.png" alt="Score Simplifier — Agent Skill"></picture>
+
 
 [简体中文](README.zh-CN.md)
 
