@@ -3,7 +3,7 @@
 
 [简体中文](README.zh-CN.md)
 
-[Download the experimental release](https://github.com/zhenglimindesign-ing/piano-score-simplifier/releases/tag/v0.3.7) · [Install](docs/INSTALL.en.md) · [Report an issue](https://github.com/zhenglimindesign-ing/piano-score-simplifier/issues)
+[Download the experimental release](https://github.com/zhenglimindesign-ing/piano-score-simplifier/releases/tag/v0.3.7) · [Install](docs/INSTALL.en.md) · [FAQ](#faq) · [Report an issue](https://github.com/zhenglimindesign-ing/piano-score-simplifier/issues)
 
 **Start with the music you love. Work your way toward the original.**
 
@@ -156,6 +156,38 @@ Point to the bars and describe the problem:
 > The accompaniment still jumps too far in bars 8–12. Keep the melody, make the accompaniment steadier, and save a new version while retaining the previous one for comparison.
 
 You can also preserve a favourite accompaniment pattern, reduce chord stretches or extend an accepted Mini into Full. Original scores and earlier versions are retained.
+
+## FAQ
+
+### Why not just ask an AI directly?
+
+For a one-off suggestion, you can.
+
+Score Simplifier becomes useful when you want the result to be source-grounded, editable, versioned and checked. It gives the agent a repeatable workflow: verify the source, protect musical identity, target specific playing burdens, make constrained score edits, render real notation, run QA, and keep revisions traceable.
+
+You can focus on “what still feels hard” instead of re-specifying the workflow every time.
+
+### Is this just a prompt?
+
+No.
+
+`SKILL.md` provides the domain behavior and musical workflow, but the project also uses structured MusicXML, source mappings, constrained edit plans, difficulty metrics, MuseScore rendering, MIDI readback, QA gates and versioned revisions.
+
+Together, that forms a lightweight domain-specific agent harness. The model still makes musical judgments; the surrounding tools make the work more constrained, inspectable and reproducible.
+
+### Does a technical PASS mean the arrangement is definitely playable?
+
+No.
+
+Technical QA can verify things such as score structure, timeline, hand span, hand conflicts, MIDI readback and rendered pages. It cannot prove that the arrangement is musically convincing or comfortable for a particular person.
+
+Technical checks, musical acceptance and human playability are kept as separate claims.
+
+### Can it simplify any piano score?
+
+There is no fixed repertoire list, but not every score is guaranteed to work.
+
+A result depends on having a reliable source, notation the current workflow can handle, and a target difficulty that can still preserve the piece’s musical identity. Unsupported or ambiguous material should remain explicit rather than being guessed or silently discarded.
 
 ## Boundaries and feedback
 
