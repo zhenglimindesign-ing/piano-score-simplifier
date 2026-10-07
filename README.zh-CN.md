@@ -2,7 +2,7 @@
 
 [English](README.md)
 
-[下载实验版](https://github.com/zhenglimindesign-ing/piano-score-simplifier/releases/tag/v0.3.7) · [安装说明](docs/INSTALL.zh-CN.md) · [反馈问题](https://github.com/zhenglimindesign-ing/piano-score-simplifier/issues)
+[下载实验版](https://github.com/zhenglimindesign-ing/piano-score-simplifier/releases/tag/v0.3.7) · [安装说明](docs/INSTALL.zh-CN.md) · [FAQ](#faq) · [反馈问题](https://github.com/zhenglimindesign-ing/piano-score-simplifier/issues)
 
 **先弹喜欢的音乐，再逐步接近原版。**
 
@@ -154,6 +154,38 @@ skill 可以从这些来源开始：
 > 第 8–12 小节的伴奏还是跳得太远。请保留旋律，让伴奏更稳，保存一个新版本，并保留上一版供我比较。
 
 也可以要求保留某个伴奏型、减小和弦跨度，或在认可 Mini 后继续 Full。原始曲谱和已有版本会保留。
+
+## FAQ
+
+### 为什么不直接问 AI？
+
+如果只是一次性问“这个和弦怎么改简单一点”，当然可以直接问 AI。
+
+Score Simplifier 更适合你希望结果有可靠原谱依据、可以继续编辑、有版本记录，而且经过明确检查的情况。它把一套工作方式固定下来：核对来源、保护音乐身份、定位具体演奏负担、受约束地改谱、正式排谱、QA，并保留每一版方便继续修改。
+
+这样用户只需要继续告诉它“哪里还难”，不用每次重新教 AI 应该怎样工作。
+
+### 这是不是其实就是一个 prompt？
+
+不只是。
+
+`SKILL.md` 会规定这类任务的领域行为和音乐工作方式；同时项目还使用结构化 MusicXML、原谱对应关系、受约束的编辑计划、难度指标、MuseScore 排谱、MIDI 读回、QA gate 和版本化修改。
+
+这些一起构成了一套轻量的、面向钢琴谱简化的 agent harness。模型仍然负责真正需要音乐判断的部分；外围工具让过程更受约束、更可检查，也更容易复现。
+
+### 技术检查 PASS，是不是代表这份谱一定好弹？
+
+不是。
+
+技术 QA 可以确认乐谱结构、时间线、手部跨度、双手冲突、MIDI 读回和真实 PDF 页面等问题，但它不能自动证明这份编配在音乐上一定好，或者一定适合某一个人的手和技术背景。
+
+因此技术检查、音乐性验收和真人可弹性会分开记录。
+
+### 它可以简化任何钢琴曲吗？
+
+没有固定曲目清单，但也不保证任何乐谱都能直接完成。
+
+结果取决于是否有可靠原谱、当前流程是否支持对应记谱，以及目标难度能否在不过度破坏作品音乐身份的前提下实现。遇到不支持或无法确认的内容，应该明确保留为未完成，而不是猜测或悄悄删掉。
 
 ## 使用边界与反馈
 
