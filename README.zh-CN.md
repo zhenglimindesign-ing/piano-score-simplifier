@@ -2,7 +2,7 @@
 
 [English](README.md)
 
-[下载实验版](https://github.com/zhenglimindesign-ing/piano-score-simplifier/releases/tag/v0.3.7) · [安装说明](docs/INSTALL.zh-CN.md) · [FAQ](#faq) · [反馈问题](https://github.com/zhenglimindesign-ing/piano-score-simplifier/issues)
+[下载实验版](https://github.com/zhenglimindesign-ing/piano-score-simplifier/releases/tag/v0.3.7) · [安装说明](docs/INSTALL.zh-CN.md) · [常见问题](#faq) · [反馈问题](https://github.com/zhenglimindesign-ing/piano-score-simplifier/issues)
 
 **先弹喜欢的音乐，再逐步接近原版。**
 
@@ -20,7 +20,9 @@
 
 图中是第 9–11 小节，按同一比例排版；这三小节里三档都和原谱不同。[查看完整 16 小节对照 PDF](examples/tchaikovsky-october/comparison.pdf)，或下载[各版 PDF、MusicXML、MIDI 与改编说明](examples/tchaikovsky-october/README.zh-CN.md)。
 
-这段的左手最大书面保持跨度从 17 半音（纯十一度）降至 L1 / L2 / L3 的 7 / 9 / 12 半音（纯五度 / 大六度 / 八度）。这是技术信号，不是考级校准。参考版是依据 Schirmer/Oesterle 1909 年版重新转录的自有排谱，不包含来源扫描件。见[来源与权利说明](examples/tchaikovsky-october/SOURCE.zh-CN.md)。三档仍需音乐性与真人试弹审核；Original 的倚音和滚奏播放核验尚未完成。
+**左手最大书面保持跨度：**参考版 17 半音（纯十一度）→ L1 / L2 / L3 的 7 / 9 / 12 半音（纯五度 / 大六度 / 八度）。
+
+这是技术信号，不是考级校准。参考版是依据 Schirmer/Oesterle 1909 年版重新转录的自有排谱，不包含来源扫描件。见[来源与权利说明](examples/tchaikovsky-october/SOURCE.zh-CN.md)。三档仍需音乐性与真人试弹审核；Original 的倚音和滚奏播放核验尚未完成。
 
 ## 为什么是 Score Simplifier？
 
@@ -56,6 +58,14 @@ Score Simplifier 会把不同技术负担分开看，例如：
 来源保真、技术难度、谱面排版、播放正确和真人可弹性，是几件不同的事。
 
 这个 skill 会把这些检查分开处理；没有实际完成的检查，不会悄悄当成已经通过。
+
+### 为什么不直接问 AI？
+
+如果只是一次性问“这个和弦怎么改简单一点”，当然可以直接问 AI。
+
+Score Simplifier 更适合你希望结果有可靠原谱依据、可以继续编辑、有版本记录，而且经过明确检查的情况。它把一套工作方式固定下来：核对来源、保护音乐身份、定位具体演奏负担、受约束地改谱、正式排谱、QA，并保留每一版方便继续修改。
+
+这样用户只需要继续告诉它“哪里还难”，不用每次重新教 AI 应该怎样工作。
 
 ## 选择适合这次练习的档位
 
@@ -157,15 +167,8 @@ skill 可以从这些来源开始：
 
 ## FAQ
 
-### 为什么不直接问 AI？
-
-如果只是一次性问“这个和弦怎么改简单一点”，当然可以直接问 AI。
-
-Score Simplifier 更适合你希望结果有可靠原谱依据、可以继续编辑、有版本记录，而且经过明确检查的情况。它把一套工作方式固定下来：核对来源、保护音乐身份、定位具体演奏负担、受约束地改谱、正式排谱、QA，并保留每一版方便继续修改。
-
-这样用户只需要继续告诉它“哪里还难”，不用每次重新教 AI 应该怎样工作。
-
-### 这是不是其实就是一个 prompt？
+<details>
+<summary><strong>这是不是其实就是一个 prompt？</strong></summary>
 
 不只是。
 
@@ -173,7 +176,10 @@ Score Simplifier 更适合你希望结果有可靠原谱依据、可以继续编
 
 这些一起构成了一套轻量的、面向钢琴谱简化的 agent harness。模型仍然负责真正需要音乐判断的部分；外围工具让过程更受约束、更可检查，也更容易复现。
 
-### 技术检查 PASS，是不是代表这份谱一定好弹？
+</details>
+
+<details>
+<summary><strong>技术检查 PASS，是不是代表这份谱一定好弹？</strong></summary>
 
 不是。
 
@@ -181,11 +187,16 @@ Score Simplifier 更适合你希望结果有可靠原谱依据、可以继续编
 
 因此技术检查、音乐性验收和真人可弹性会分开记录。
 
-### 它可以简化任何钢琴曲吗？
+</details>
+
+<details>
+<summary><strong>它可以简化任何钢琴曲吗？</strong></summary>
 
 没有固定曲目清单，但也不保证任何乐谱都能直接完成。
 
 结果取决于是否有可靠原谱、当前流程是否支持对应记谱，以及目标难度能否在不过度破坏作品音乐身份的前提下实现。遇到不支持或无法确认的内容，应该明确保留为未完成，而不是猜测或悄悄删掉。
+
+</details>
 
 ## 使用边界与反馈
 

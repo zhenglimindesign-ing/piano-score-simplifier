@@ -2,7 +2,7 @@
   "manifest_version": "distribution-content-1.0",
   "implementation_version": "0.3.7",
   "status": "CONTENT_SNAPSHOT",
-  "content_sha256": "3e19f7bd71e1c62d374d9559332a293935a17982aa4e441d56ba7215ce69b63e",
+  "content_sha256": "1a795036131cc8450ebaffd3c3005efb496e6f793fabb23fc2a2044b5b47618c",
   "files": [
     {
       "path": "docs/DISTRIBUTION.en.md",
@@ -231,13 +231,13 @@
     },
     {
       "path": "README.md",
-      "bytes": 12296,
-      "sha256": "ce8b30853481bdb6375e2aae1beb51dc233ab40f19095f7728a21111244cee16"
+      "bytes": 12448,
+      "sha256": "01697fbdff39af56f0e005492c708292b21b2c70250f746b7cf5c0fee35b0f76"
     },
     {
       "path": "README.zh-CN.md",
-      "bytes": 10942,
-      "sha256": "84573400efdc49d0f2ca9a064a56504defc670110e4149877ff15b830cf4f75c"
+      "bytes": 11116,
+      "sha256": "dff085ce1c6c8a1f8161b7224ca095b0637a4b1ac9e10673363702e4f6df487e"
     },
     {
       "path": "RELEASE_NOTES.md",

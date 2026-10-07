@@ -21,7 +21,9 @@ Tchaikovsky’s **October**, opening bars 1–16: one source-grounded reference 
 
 The image shows bars 9–11 at the same engraving scale, where all three arrangements differ from the original. [Open the full 16-bar comparison PDF](examples/tchaikovsky-october/comparison.pdf), or get [individual PDFs, MusicXML, MIDI and arrangement notes](examples/tchaikovsky-october/README.md).
 
-For this passage, maximum written left-hand reach changes from 17 semitones (a perfect 11th) to 7 / 9 / 12 (a perfect 5th, a major 6th, an octave) in L1 / L2 / L3. These are technical signals, not calibrated grades. The reference uses our own transcription of Schirmer/Oesterle’s 1909 edition; the source scan is excluded. [Source and rights](examples/tchaikovsky-october/SOURCE.en.md). All three arrangements still require musical and human playing review; Original playback verification is incomplete for its grace notes and rolled chords.
+**Maximum written left-hand reach:** 17 semitones (a perfect 11th) in the reference → 7 / 9 / 12 (a perfect 5th / major 6th / octave) in L1 / L2 / L3.
+
+These are technical signals, not calibrated grades. The reference uses our own transcription of Schirmer/Oesterle’s 1909 edition; the source scan is excluded. [Source and rights](examples/tchaikovsky-october/SOURCE.en.md). All three arrangements still require musical and human playing review; Original playback verification is incomplete for its grace notes and rolled chords.
 
 ## Why Score Simplifier?
 
@@ -57,6 +59,14 @@ A Romantic cantabile piece, Bach counterpoint and an arpeggio-driven work should
 Source fidelity, technical difficulty, engraving, playback and human playability are separate questions.
 
 The skill keeps these checks separate and reports work that was not actually verified instead of silently treating it as passed.
+
+### Why not just ask an AI directly?
+
+For a one-off suggestion, you can.
+
+Score Simplifier becomes useful when you want the result to be source-grounded, editable, versioned and checked. It gives the agent a repeatable workflow: verify the source, protect musical identity, target specific playing burdens, make constrained score edits, render real notation, run QA, and keep revisions traceable.
+
+You can focus on “what still feels hard” instead of re-specifying the workflow every time.
 
 ## Choose an arrangement level
 
@@ -159,15 +169,8 @@ You can also preserve a favourite accompaniment pattern, reduce chord stretches 
 
 ## FAQ
 
-### Why not just ask an AI directly?
-
-For a one-off suggestion, you can.
-
-Score Simplifier becomes useful when you want the result to be source-grounded, editable, versioned and checked. It gives the agent a repeatable workflow: verify the source, protect musical identity, target specific playing burdens, make constrained score edits, render real notation, run QA, and keep revisions traceable.
-
-You can focus on “what still feels hard” instead of re-specifying the workflow every time.
-
-### Is this just a prompt?
+<details>
+<summary><strong>Is this just a prompt?</strong></summary>
 
 No.
 
@@ -175,7 +178,10 @@ No.
 
 Together, that forms a lightweight domain-specific agent harness. The model still makes musical judgments; the surrounding tools make the work more constrained, inspectable and reproducible.
 
-### Does a technical PASS mean the arrangement is definitely playable?
+</details>
+
+<details>
+<summary><strong>Does a technical PASS mean the arrangement is definitely playable?</strong></summary>
 
 No.
 
@@ -183,11 +189,16 @@ Technical QA can verify things such as score structure, timeline, hand span, han
 
 Technical checks, musical acceptance and human playability are kept as separate claims.
 
-### Can it simplify any piano score?
+</details>
+
+<details>
+<summary><strong>Can it simplify any piano score?</strong></summary>
 
 There is no fixed repertoire list, but not every score is guaranteed to work.
 
 A result depends on having a reliable source, notation the current workflow can handle, and a target difficulty that can still preserve the piece’s musical identity. Unsupported or ambiguous material should remain explicit rather than being guessed or silently discarded.
+
+</details>
 
 ## Boundaries and feedback
 

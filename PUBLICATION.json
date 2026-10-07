@@ -67,10 +67,10 @@
   "verification_scope": "The existing verification object and top-level content/manifest hashes describe the immutable v0.3.7 release at release_commit_sha. Current main is described separately below; this documentation/design patch does not change runtime or musical score files.",
   "current_repository_snapshot": {
     "status": "POST_RELEASE_DOCUMENTATION_DESIGN_PATCH",
-    "base_commit_sha": "f6ea2b2df01840e34d6d8273937e1b6dd6a19b8e",
+    "base_commit_sha": "0e61e8602fba01d16df2556973e59eb6f381c382",
     "implementation_version": "0.3.7",
-    "distribution_manifest_sha256": "1eb7f1a6042ee1d4b709b232060a0bbad30a80523730fca898696ac2f37838a7",
-    "content_sha256": "3e19f7bd71e1c62d374d9559332a293935a17982aa4e441d56ba7215ce69b63e",
+    "distribution_manifest_sha256": "56a95cea0c53e5cbee5fbf151885ed9cbeed311bd9939ef1d4304e3ec9eca33e",
+    "content_sha256": "1a795036131cc8450ebaffd3c3005efb496e6f793fabb23fc2a2044b5b47618c",
     "listed_content_files": 59,
     "content_changes_since_release": [
       {
@@ -100,12 +100,20 @@
       {
         "path": "examples/tchaikovsky-october/comparison-ladder.zh-CN.png",
         "change": "Added README-facing Chinese difficulty ladder; musical source files and metrics unchanged."
+      },
+      {
+        "path": "README.md",
+        "change": "Readability polish: moved the direct-AI positioning question into Why Score Simplifier, collapsed secondary FAQ items, and made the showcase reach metric easier to scan."
+      },
+      {
+        "path": "README.zh-CN.md",
+        "change": "易读性优化：把“为什么不直接问 AI”移入产品价值区，折叠次要 FAQ，并强化 showcase 跨度信息的扫读层次。"
       }
     ],
     "matches_immutable_v0_3_7_source_content": false,
     "release_tag_and_assets_modified": false,
     "runtime_skill_behavior_showcase_unchanged": true,
     "social_preview": "USER_CONFIRMED_APPLIED_IN_GITHUB_SETTINGS",
-    "verification": "Current-main inventory regenerated for 59 files; bilingual README/example links and image paths checked in this patch; FAQ remains inline; runtime/music files and immutable v0.3.7 release assets unchanged."
+    "verification": "Current-main inventory regenerated; README structure checked for one visible direct-AI positioning answer plus three collapsible secondary FAQ items per language; runtime/music files and immutable v0.3.7 release assets unchanged."
   }
 }
