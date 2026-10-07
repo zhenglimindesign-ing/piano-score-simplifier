@@ -2,33 +2,8 @@
   "manifest_version": "distribution-content-1.0",
   "implementation_version": "0.3.7",
   "status": "CONTENT_SNAPSHOT",
-  "content_sha256": "5d4fc74889cd831eec57e1d04a0f84a1d47344289f3b6f7142d03e721e13b1d1",
+  "content_sha256": "3e19f7bd71e1c62d374d9559332a293935a17982aa4e441d56ba7215ce69b63e",
   "files": [
-    {
-      "path": "LICENSE",
-      "bytes": 1086,
-      "sha256": "6bb0c465f61948e0d765d32cc017814b264dec198207f58b4780b2d6a2962b4a"
-    },
-    {
-      "path": "NOTICE",
-      "bytes": 2012,
-      "sha256": "39a84edfd65cfb03dc445e74915c97f47f121b46128bd6c01db09590bf3a2eb9"
-    },
-    {
-      "path": "README.md",
-      "bytes": 10041,
-      "sha256": "9bd84cbb359616d6ae3239436b2e65d7c3f88d227fd9b06446d69658c89c3ba6"
-    },
-    {
-      "path": "README.zh-CN.md",
-      "bytes": 8955,
-      "sha256": "9855640d69e04d7c84aca6e1d5477e307adc05c538c2a5524b5efc63d6115dad"
-    },
-    {
-      "path": "RELEASE_NOTES.md",
-      "bytes": 4353,
-      "sha256": "1818e1920fb37af2962e3bcace8aefd334a6e8c84feb8c8cf01de17e8d73e87a"
-    },
     {
       "path": "docs/DISTRIBUTION.en.md",
       "bytes": 1751,
@@ -60,39 +35,14 @@
       "sha256": "78b325a0267c4978331e08fbded06ad7086cfb86a41aee3a7eca305086c17e5d"
     },
     {
-      "path": "examples/tchaikovsky-october/METRICS.json",
-      "bytes": 5555,
-      "sha256": "4ae87ac530a9977191287a1e06bcb8622d60a541183ebf68fd49593d5eade713"
+      "path": "examples/tchaikovsky-october/comparison-ladder.en.png",
+      "bytes": 208132,
+      "sha256": "e9e3133cdceead2a2a4715bc2d8990ae18759be99d627ceb2259d35622bb515e"
     },
     {
-      "path": "examples/tchaikovsky-october/QA.json",
-      "bytes": 1890,
-      "sha256": "239c9ca670eb5efbe0ef4bd52ca5fe53fcfb496067f17aebcf2218ee5aaa160a"
-    },
-    {
-      "path": "examples/tchaikovsky-october/README.md",
-      "bytes": 5534,
-      "sha256": "477ef89f61901ed695ae7e0352102720ba4eeeeec0d7b41c6cabe3ee24c7fbd8"
-    },
-    {
-      "path": "examples/tchaikovsky-october/README.zh-CN.md",
-      "bytes": 5082,
-      "sha256": "c31d7a803448c1ef3d62168841b7a0e39f7b0d0f537facbfb802a957fc330f45"
-    },
-    {
-      "path": "examples/tchaikovsky-october/SOURCE.en.md",
-      "bytes": 2196,
-      "sha256": "42ac961395381945b6094ad55c06a194e1339323c9281aa0d0ed2aa485430c1e"
-    },
-    {
-      "path": "examples/tchaikovsky-october/SOURCE.json",
-      "bytes": 2384,
-      "sha256": "af3d713340204cbe0bc3c24d3bac32a14f3190ddc0f592f9fb610a11037f8a6e"
-    },
-    {
-      "path": "examples/tchaikovsky-october/SOURCE.zh-CN.md",
-      "bytes": 2051,
-      "sha256": "dda6a67ddbd83e7a812deed1e3b520526bd107661466a8b639c4dfbd30ab86a6"
+      "path": "examples/tchaikovsky-october/comparison-ladder.zh-CN.png",
+      "bytes": 199016,
+      "sha256": "adeaefd45d45568730ac0ed1ca98e7174ac00dfcca8ed7bc4def4f6b536b6391"
     },
     {
       "path": "examples/tchaikovsky-october/comparison.pdf",
@@ -205,6 +155,11 @@
       "sha256": "0fdbcc1f4f6fb21511aecac5ab5669d7000ba22e04a400614c0bc491f26ad556"
     },
     {
+      "path": "examples/tchaikovsky-october/METRICS.json",
+      "bytes": 5555,
+      "sha256": "4ae87ac530a9977191287a1e06bcb8622d60a541183ebf68fd49593d5eade713"
+    },
+    {
       "path": "examples/tchaikovsky-october/original.musescore-unverified.mid",
       "bytes": 5328,
       "sha256": "0aea0b75122809854b267e12a9a352003578df18b1f742636a6cc7db540aa5bc"
@@ -230,19 +185,69 @@
       "sha256": "ac8d8052c7a2681588dd605034966c5dd9998c3e7fd974efbfd160475cf58c3f"
     },
     {
+      "path": "examples/tchaikovsky-october/QA.json",
+      "bytes": 1890,
+      "sha256": "239c9ca670eb5efbe0ef4bd52ca5fe53fcfb496067f17aebcf2218ee5aaa160a"
+    },
+    {
+      "path": "examples/tchaikovsky-october/README.md",
+      "bytes": 5683,
+      "sha256": "2358efc3e98129c14be9db80380e464c349a6838d7e39d7948344f329c9c068b"
+    },
+    {
+      "path": "examples/tchaikovsky-october/README.zh-CN.md",
+      "bytes": 5235,
+      "sha256": "1553ad37c16e3cf662f94c3c889e0441a0f15df359866553450a7d879938ff28"
+    },
+    {
+      "path": "examples/tchaikovsky-october/SOURCE.en.md",
+      "bytes": 2196,
+      "sha256": "42ac961395381945b6094ad55c06a194e1339323c9281aa0d0ed2aa485430c1e"
+    },
+    {
+      "path": "examples/tchaikovsky-october/SOURCE.json",
+      "bytes": 2384,
+      "sha256": "af3d713340204cbe0bc3c24d3bac32a14f3190ddc0f592f9fb610a11037f8a6e"
+    },
+    {
+      "path": "examples/tchaikovsky-october/SOURCE.zh-CN.md",
+      "bytes": 2051,
+      "sha256": "dda6a67ddbd83e7a812deed1e3b520526bd107661466a8b639c4dfbd30ab86a6"
+    },
+    {
       "path": "examples/tchaikovsky-october/transcription-events.json",
       "bytes": 41727,
       "sha256": "825381d894c5a92fd00dc3920fd1d4d521610a4eba174d509b03bae57358c761"
     },
     {
+      "path": "LICENSE",
+      "bytes": 1086,
+      "sha256": "6bb0c465f61948e0d765d32cc017814b264dec198207f58b4780b2d6a2962b4a"
+    },
+    {
+      "path": "NOTICE",
+      "bytes": 2012,
+      "sha256": "39a84edfd65cfb03dc445e74915c97f47f121b46128bd6c01db09590bf3a2eb9"
+    },
+    {
+      "path": "README.md",
+      "bytes": 12296,
+      "sha256": "ce8b30853481bdb6375e2aae1beb51dc233ab40f19095f7728a21111244cee16"
+    },
+    {
+      "path": "README.zh-CN.md",
+      "bytes": 10942,
+      "sha256": "84573400efdc49d0f2ca9a064a56504defc670110e4149877ff15b830cf4f75c"
+    },
+    {
+      "path": "RELEASE_NOTES.md",
+      "bytes": 4353,
+      "sha256": "1818e1920fb37af2962e3bcace8aefd334a6e8c84feb8c8cf01de17e8d73e87a"
+    },
+    {
       "path": "requirements.txt",
       "bytes": 54,
       "sha256": "21029681fec52521641428ede1cbd7eb9baf4242c71bc7fde5c6039d96de35e6"
-    },
-    {
-      "path": "skills/piano-score-reduction/SKILL.md",
-      "bytes": 7488,
-      "sha256": "3882c0037b3c7783c103d0e8b7eb77c7dae0d093938bc4f0a7fdf1c02caf770d"
     },
     {
       "path": "skills/piano-score-reduction/assets/readable-a4.mss",
@@ -288,6 +293,11 @@
       "path": "skills/piano-score-reduction/scripts/score_tool.py",
       "bytes": 3238,
       "sha256": "b961cafdf1cb092d39716880eb344fb41b442f20b7cd389d4a9bfb5f83888411"
+    },
+    {
+      "path": "skills/piano-score-reduction/SKILL.md",
+      "bytes": 7488,
+      "sha256": "3882c0037b3c7783c103d0e8b7eb77c7dae0d093938bc4f0a7fdf1c02caf770d"
     }
   ],
   "contains_git_history": false,

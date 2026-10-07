@@ -13,6 +13,16 @@ The aim is not simply to remove notes. It is to reduce the **real playing burden
 
 **Supported repertoire: solo piano scores.** Use public-domain, original or appropriately authorized scores; repertoire is not restricted to a fixed list.
 
+## See the same music at three levels
+
+Tchaikovsky’s **October**, opening bars 1–16: one source-grounded reference and three new arrangements. The melody and the left-hand reply stay; accompaniment reach and texture change.
+
+[![Original, L3, L2 and L1: bars 9–11 at the same scale](examples/tchaikovsky-october/comparison-ladder.en.png)](examples/tchaikovsky-october/comparison.pdf)
+
+The image shows bars 9–11 at the same engraving scale, where all three arrangements differ from the original. [Open the full 16-bar comparison PDF](examples/tchaikovsky-october/comparison.pdf), or get [individual PDFs, MusicXML, MIDI and arrangement notes](examples/tchaikovsky-october/README.md).
+
+For this passage, maximum written left-hand reach changes from 17 semitones (a perfect 11th) to 7 / 9 / 12 (a perfect 5th, a major 6th, an octave) in L1 / L2 / L3. These are technical signals, not calibrated grades. The reference uses our own transcription of Schirmer/Oesterle’s 1909 edition; the source scan is excluded. [Source and rights](examples/tchaikovsky-october/SOURCE.en.md). All three arrangements still require musical and human playing review; Original playback verification is incomplete for its grace notes and rolled chords.
+
 ## Why Score Simplifier?
 
 ### Fewer notes do not automatically mean easier playing
@@ -47,16 +57,6 @@ A Romantic cantabile piece, Bach counterpoint and an arpeggio-driven work should
 Source fidelity, technical difficulty, engraving, playback and human playability are separate questions.
 
 The skill keeps these checks separate and reports work that was not actually verified instead of silently treating it as passed.
-
-## See the same music at three levels
-
-Tchaikovsky’s **October**, opening bars 1–16: one source-grounded reference and three new arrangements. The melody and the left-hand reply stay; accompaniment reach and texture change.
-
-[![Original, L1, L2 and L3: the same first four bars](examples/tchaikovsky-october/comparison.png)](examples/tchaikovsky-october/comparison.pdf)
-
-The image compares the first four bars at the same scale. [Open the full 16-bar comparison PDF](examples/tchaikovsky-october/comparison.pdf), or get [individual PDFs, MusicXML, MIDI and arrangement notes](examples/tchaikovsky-october/README.md).
-
-For this passage, maximum written left-hand reach changes from 17 semitones to 7 / 9 / 12 in L1 / L2 / L3. These are technical signals, not calibrated grades. The reference uses our own transcription of Schirmer/Oesterle’s 1909 edition; the source scan is excluded. [Source and rights](examples/tchaikovsky-october/SOURCE.en.md). All three arrangements still require musical and human playing review; Original playback verification is incomplete for its grace notes and rolled chords.
 
 ## Choose an arrangement level
 

@@ -12,6 +12,16 @@
 
 **支持范围：钢琴独奏曲谱。** 可使用公版、自创或已获相应授权的乐谱；曲目不限于固定清单。
 
+## 看同一段音乐的三档变化
+
+柴可夫斯基《**十月**》开头第 1–16 小节：一份依据原谱核对的参考版，加上三份新编配。主旋律和左手回应保留，伴奏跨度与织体按档位调整。
+
+[![原谱、L3、L2、L1：第 9–11 小节，同一比例](examples/tchaikovsky-october/comparison-ladder.zh-CN.png)](examples/tchaikovsky-october/comparison.pdf)
+
+图中是第 9–11 小节，按同一比例排版；这三小节里三档都和原谱不同。[查看完整 16 小节对照 PDF](examples/tchaikovsky-october/comparison.pdf)，或下载[各版 PDF、MusicXML、MIDI 与改编说明](examples/tchaikovsky-october/README.zh-CN.md)。
+
+这段的左手最大书面保持跨度从 17 半音（纯十一度）降至 L1 / L2 / L3 的 7 / 9 / 12 半音（纯五度 / 大六度 / 八度）。这是技术信号，不是考级校准。参考版是依据 Schirmer/Oesterle 1909 年版重新转录的自有排谱，不包含来源扫描件。见[来源与权利说明](examples/tchaikovsky-october/SOURCE.zh-CN.md)。三档仍需音乐性与真人试弹审核；Original 的倚音和滚奏播放核验尚未完成。
+
 ## 为什么是 Score Simplifier？
 
 ### 音符变少，不一定真的更容易
@@ -46,16 +56,6 @@ Score Simplifier 会把不同技术负担分开看，例如：
 来源保真、技术难度、谱面排版、播放正确和真人可弹性，是几件不同的事。
 
 这个 skill 会把这些检查分开处理；没有实际完成的检查，不会悄悄当成已经通过。
-
-## 看同一段音乐的三档变化
-
-柴可夫斯基《**十月**》开头第 1–16 小节：一份依据原谱核对的参考版，加上三份新编配。主旋律和左手回应保留，伴奏跨度与织体按档位调整。
-
-[![Original、L1、L2、L3：同样的开头四小节](examples/tchaikovsky-october/comparison.png)](examples/tchaikovsky-october/comparison.pdf)
-
-图片按相同比例比较开头四小节。[查看完整 16 小节对照 PDF](examples/tchaikovsky-october/comparison.pdf)，或下载[各版 PDF、MusicXML、MIDI 与改编说明](examples/tchaikovsky-october/README.zh-CN.md)。
-
-这段的左手最大书面保持跨度从 17 半音降至 L1 / L2 / L3 的 7 / 9 / 12 半音。这是技术信号，不是考级校准。参考版是依据 Schirmer/Oesterle 1909 年版重新转录的自有排谱，不包含来源扫描件。见[来源与权利说明](examples/tchaikovsky-october/SOURCE.zh-CN.md)。三档仍需音乐性与真人试弹审核；Original 的倚音和滚奏播放核验尚未完成。
 
 ## 选择适合这次练习的档位
 

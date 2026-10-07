@@ -4,7 +4,7 @@
 
 Tchaikovsky, *The Seasons*, October, opening **mm. 1–16**. This opening section reaches its D-minor arrival; the original continues at bar 17. Every version covers the same bars. They were transcribed and arranged afresh for this showcase, rather than repackaging the earlier experimental L2.
 
-![The same opening four bars at the same scale](comparison.png)
+![Original, L3, L2 and L1: bars 9–11 at the same scale](comparison-ladder.en.png)
 
 | Version | PDF / full-page image | Canonical notation | Listening file | Evidence |
 |---|---|---|---|---|
@@ -13,7 +13,7 @@ Tchaikovsky, *The Seasons*, October, opening **mm. 1–16**. This opening sectio
 | L2 Easy Musical | [PDF](l2.pdf) / [PNG](l2.png) | [MusicXML](l2.musicxml) | [MIDI](l2.mid) | [QA](l2.qa.json) / [change map](l2-arrangement-map.json) |
 | L3 Intermediate Reduction | [PDF](l3.pdf) / [PNG](l3.png) | [MusicXML](l3.musicxml) | [MIDI](l3.mid) | [QA](l3.qa.json) / [change map](l3-arrangement-map.json) |
 
-The five-page comparison contains one guide page followed by the four unchanged score pages. The preview shows only the first four bars. Scores use MuseScore 4.7.5, readable A4 notation and a common quarter-note tempo of 52 for comparison. The source does not prescribe that metronome mark.
+The ladder preview above shows bars 9–11 at the same engraving scale, where all three arrangements differ from the reference. The five-page comparison PDF still contains one guide page followed by the four unchanged score pages and covers the full 16-bar example. Scores use MuseScore 4.7.5, readable A4 notation and a common quarter-note tempo of 52 for comparison. The source does not prescribe that metronome mark.
 
 ## What the arrangements change
 

@@ -63,24 +63,49 @@
     "new_independent_Claude_Code_Claude_web_ChatGPT_Work_trials": "NOT_RUN; unchanged runtime uses explicitly inherited v0.3.6 evidence",
     "new_AI_skill_discovery_conversation": "NOT_RUN; this release adds local exact package/runtime execution evidence"
   },
-  "inventory_relation": "DISTRIBUTION.json inventories current main content, including the post-release Chinese install-label correction. Top-level distribution_manifest_sha256/content_sha256 and asset hashes identify the immutable v0.3.7 release; current_repository_snapshot identifies revised main. The original tag/source ZIP still contain the original label. PUBLICATION.json remains excluded from the inventory to avoid circular hashes; no new release or replacement asset is claimed.",
-  "verification_scope": "The existing verification object and top-level content/manifest hashes describe the immutable v0.3.7 release at release_commit_sha, verified at verified_at_utc. Current main is described separately below.",
+  "inventory_relation": "DISTRIBUTION.json inventories current main content, including post-release documentation and design patches. Top-level distribution_manifest_sha256/content_sha256 and asset hashes continue to identify the immutable v0.3.7 release; current_repository_snapshot identifies revised main. PUBLICATION.json remains excluded from the inventory to avoid circular hashes; no new release or replacement asset is claimed.",
+  "verification_scope": "The existing verification object and top-level content/manifest hashes describe the immutable v0.3.7 release at release_commit_sha. Current main is described separately below; this documentation/design patch does not change runtime or musical score files.",
   "current_repository_snapshot": {
-    "status": "POST_RELEASE_DOCUMENTATION_PATCH",
-    "base_commit_sha": "a41df196a4f67a32fdbb205a9e5a2e244a82fb7c",
+    "status": "POST_RELEASE_DOCUMENTATION_DESIGN_PATCH",
+    "base_commit_sha": "f6ea2b2df01840e34d6d8273937e1b6dd6a19b8e",
     "implementation_version": "0.3.7",
-    "distribution_manifest_sha256": "bf823e35178870893c863101c35f091fb2cc16532d0d0db377c544ef4af1f770",
-    "content_sha256": "5d4fc74889cd831eec57e1d04a0f84a1d47344289f3b6f7142d03e721e13b1d1",
-    "listed_content_files": 57,
+    "distribution_manifest_sha256": "1eb7f1a6042ee1d4b709b232060a0bbad30a80523730fca898696ac2f37838a7",
+    "content_sha256": "3e19f7bd71e1c62d374d9559332a293935a17982aa4e441d56ba7215ce69b63e",
+    "listed_content_files": 59,
     "content_changes_since_release": [
       {
         "path": "docs/INSTALL.zh-CN.md",
-        "change": "Visible release label v0.3.6 -> v0.3.7; URL unchanged."
+        "change": "Visible release label corrected from v0.3.6 to v0.3.7; URL was already v0.3.7."
+      },
+      {
+        "path": "README.md",
+        "change": "Post-release visual header retained; concise FAQ added; October showcase moved earlier and updated to the bars 9–11 ladder preview."
+      },
+      {
+        "path": "README.zh-CN.md",
+        "change": "Concise FAQ added; October showcase moved earlier and updated to the Chinese bars 9–11 ladder preview."
+      },
+      {
+        "path": "examples/tchaikovsky-october/README.md",
+        "change": "Preview updated from the first four bars to the bars 9–11 English ladder."
+      },
+      {
+        "path": "examples/tchaikovsky-october/README.zh-CN.md",
+        "change": "Preview updated from the first four bars to the bars 9–11 Chinese ladder."
+      },
+      {
+        "path": "examples/tchaikovsky-october/comparison-ladder.en.png",
+        "change": "Added README-facing English difficulty ladder; musical source files and metrics unchanged."
+      },
+      {
+        "path": "examples/tchaikovsky-october/comparison-ladder.zh-CN.png",
+        "change": "Added README-facing Chinese difficulty ladder; musical source files and metrics unchanged."
       }
     ],
     "matches_immutable_v0_3_7_source_content": false,
     "release_tag_and_assets_modified": false,
     "runtime_skill_behavior_showcase_unchanged": true,
-    "verification": "All 57 current inventory hashes checked; 16 Markdown documents checked for relative file/image links and explicit release-label consistency. Existing release verification and runtime evidence retained."
+    "social_preview": "USER_CONFIRMED_APPLIED_IN_GITHUB_SETTINGS",
+    "verification": "Current-main inventory regenerated for 59 files; bilingual README/example links and image paths checked in this patch; FAQ remains inline; runtime/music files and immutable v0.3.7 release assets unchanged."
   }
 }
