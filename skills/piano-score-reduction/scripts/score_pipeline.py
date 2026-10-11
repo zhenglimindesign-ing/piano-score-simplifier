@@ -19,6 +19,7 @@ import subprocess
 import sys
 
 from lxml import etree as E
+from score_intake import budget_checkpoint
 
 from score_core import (AUTOMATED_GATES, VERSION, analyze, apply_plan, dump, event_signature,
                         export_midi, normalize_order, parse_score, performance_score, read_xml, sha,
@@ -242,6 +243,15 @@ def render(out, xml, style, mscore, audio):
 
 
 def run(a):
+    if getattr(a, 'budget_state', None):
+        try:
+            checkpoint = budget_checkpoint(json.loads(a.budget_state.read_text()))
+        except (OSError, ValueError, KeyError) as exc:
+            print(json.dumps(dict(overall='ERROR', check='work_budget', error=str(exc))))
+            return 1
+        if checkpoint['action'] == 'REPLAN_METHOD':
+            print(json.dumps(dict(overall='INCOMPLETE', check='work_budget', budget=checkpoint)))
+            return 3
     out = a.out.resolve()
     if out.exists():
         raise SystemExit("Output directory exists; every run needs a new version directory")
@@ -524,6 +534,7 @@ def main():
     r.add_argument("--style", type=Path)
     r.add_argument("--mscore")
     r.add_argument("--audio", action="store_true", help="Also export a mechanical MP3 through MuseScore")
+    r.add_argument("--budget-state", type=Path, help="Observed stage budget; replan exhausted methods before creating output")
     n = sub.add_parser("annotate", help="Record a review result; artifacts are not changed")
     n.add_argument("--manifest", required=True, type=Path)
     n.add_argument("--check", required=True, choices=sorted(REVIEW_CHECKS))

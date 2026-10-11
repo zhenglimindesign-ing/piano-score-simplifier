@@ -3,7 +3,7 @@
 
 [简体中文](README.zh-CN.md)
 
-[Download the experimental release](https://github.com/zhenglimindesign-ing/piano-score-simplifier/releases/tag/v0.3.7) · [Install](docs/INSTALL.en.md) · [FAQ](#faq) · [Report an issue](https://github.com/zhenglimindesign-ing/piano-score-simplifier/issues)
+[Download the experimental release](https://github.com/zhenglimindesign-ing/piano-score-simplifier/releases/tag/v0.3.8) · [Install](docs/INSTALL.en.md) · [FAQ](#faq) · [Report an issue](https://github.com/zhenglimindesign-ing/piano-score-simplifier/issues)
 
 **Start with the music you love. Work your way toward the original.**
 
@@ -110,7 +110,8 @@ The skill can work from:
 
 1. **A score you provide**
    - MusicXML / MXL are preferred structured inputs;
-   - clear PDFs can also be used, but need transcription and source comparison first.
+   - PDFs first receive a read-only intake and representative-phrase source check; editable delivery needs verified transcription;
+   - voice-plus-piano or ensemble sources require separately declared roles and scope; the current core arranges one piano part.
 
 2. **A reliable public-domain source**
    - if you provide only a work title and the execution environment can access the web, the agent can locate a trustworthy public-domain or otherwise permitted edition before arranging;
@@ -149,15 +150,19 @@ If you are unsure about levels, simply ask for “an easier short version.”
 
 ## What you receive
 
+Agree the page result before full processing. An **annotation** retains the printed notes and marks omissions. A **graphical reduction** actually erases selected notes and repaginates whole systems, preserving the scanned printing. An **editable re-engraving** is typeset again from verified canonical notation. A short source phrase can clarify the difference when needed. Choose the artifacts you need; complete MusicXML and MIDI from a PDF require verified transcription of that scope. If this cannot be completed reliably, the agent should explain the blocker before proposing a different delivery.
+
 | Deliverable | Use |
 |---|---|
 | **PDF** | Read, print and practise |
-| **MusicXML** | Continue editing in notation software |
-| **MIDI** | Listen to notes, rhythm and differences between versions |
+| **MusicXML** | Complete editable notation for an editable re-engraving; graphical delivery may have only labelled diagnostic excerpts |
+| **MIDI** | Checked playback for the declared score/phrase scope; diagnostic clips are not full-score playback |
 | **Optional audio** | Convenient audition when the environment supports it |
 | **Arrangement notes / QA** | Understand retained features, changes, remaining difficulties and unperformed checks |
 
 Read the score, listen, then try it at a comfortable tempo. MIDI is a listening reference; your playing experience determines whether the arrangement actually feels right.
+
+The agent checks one coherent phrase internally before expanding a new long PDF. It records stage time and available token deltas, reuses unchanged checks, and changes an exhausted method after two failed repairs. This need not delay a requested complete delivery for an intermediate player trial. Usage estimates are separate from cash charges and active human work. Audio export or decoding does not establish that the agent listened; actual audio analysis and human audition are recorded separately.
 
 ## Refine it as you practise
 

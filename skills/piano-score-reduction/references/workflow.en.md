@@ -1,5 +1,7 @@
 # Execution reference
 
+For PDF intake or graphical delivery, read [pdf-intake.en.md](pdf-intake.en.md) before this MusicXML workflow. Declare the delivery form; labelled clip XML/MIDI is not a complete editable score. `preflight.py --input SOURCE.pdf` is a read-only input inventory, not source acceptance. Use `--budget-state work/stage.json` on preflight or the pipeline to checkpoint a measured stage before expanding/retrying; exhausted methods are replanned while independent work continues.
+
 Use Python 3.10+ and an isolated environment under `work/`. Install this skill's `requirements.txt` there. Run `preflight.py`, then `fetch_schema.py work/schema` when network access is permitted. The latter downloads pinned W3C files and checks SHA-256; it does not send scores. No schema means the schema gate is NOT_RUN.
 
 Examples below are agent operations; users need only describe the desired musical change. Resolve script paths relative to the skill folder, quote paths, keep scratch under work/ and deliverables under outputs/. Use a new version for each output; never overwrite input or an existing result.

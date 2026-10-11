@@ -1,4 +1,18 @@
-# Host evidence for v0.3.7
+# Host evidence for v0.3.8
+
+[中文](SUPPORT.zh-CN.md) · [Installation](INSTALL.en.md)
+
+v0.3.8 adds read-only PDF intake, explicit delivery contracts and stage checkpoints. The music-editing core is unchanged except its version constant. Previous whole-workflow evidence applies to that retained core; it does not establish the new PDF route on every host.
+
+| Route | v0.3.8 evidence | Boundary |
+|---|---|---|
+| Installed Codex local plugin | CLI 0.145.0; wrapper 0.3.8-plugin.1, 20 payload files matched. One ephemeral native invocation used the available default model gpt-5.6-sol and read the installed Skill, new PDF reference and requirements; returned version and hash matched | This exact local CLI configuration; the current long chat's earlier references remain historical |
+| Installed local runtime | Two authored bars produced complete PDF, MusicXML, MIDI and change notes with schema, timeline, difficulty, hand-conflict, MIDI and actual MuseScore 4.7.5 render checks. One PDF page viewed. An image-only copy received correct transcription routing. 30 release-focused tests passed; 79 related revision tests are retained | Synthetic material and one configuration; no Strauss reprocessing or full PDF transcription test |
+| Claude Code / Claude web / ChatGPT Work | Retained earlier core evidence below | New v0.3.8 trials and PDF intake on those hosts NOT_RUN |
+
+Stage budget guards use supplied observed records and do not monitor account billing. PDF metadata is not source transcription. Musical acceptance, human listening/playing and difficulty calibration remain NOT_RUN.
+
+## Retained v0.3.7 evidence
 
 [中文](SUPPORT.zh-CN.md) · [Installation](INSTALL.en.md)
 

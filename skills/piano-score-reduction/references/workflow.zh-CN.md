@@ -1,5 +1,7 @@
 # 执行参考
 
+PDF 预检或图像交付先读 [pdf-intake.zh-CN.md](pdf-intake.zh-CN.md)，再使用本 MusicXML 流程。声明交付形式；标明为样段的 XML/MIDI 不是完整可编辑谱。`preflight.py --input SOURCE.pdf` 是只读输入检查，不是来源验收。扩展或重试前，可在预检／流水线使用 `--budget-state work/stage.json` 检查已测量的阶段；耗尽的方法调整路线，独立工作继续。
+
 使用 Python 3.10+，在 `work/` 下建立隔离环境并安装本 skill 的 `requirements.txt`。先运行 `preflight.py`；允许访问网络时再运行 `fetch_schema.py work/schema`。后者只下载固定版本的 W3C 格式文件并核对 SHA-256，不上传乐谱。未提供格式文件时，schema 检查为 NOT_RUN。
 
 以下命令由 agent 执行，用户只需描述音乐需求。脚本路径以 skill 目录为基准，路径加引号；临时文件放 work/，交付件放 outputs/。每次输出使用新版本，不能覆盖输入或已有结果。
