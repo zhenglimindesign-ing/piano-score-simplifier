@@ -1,0 +1,129 @@
+{
+  "artifact_type": "PUBLICATION_RECEIPT",
+  "status": "PUBLIC_RELEASE_VERIFIED",
+  "product": "Score Simplifier",
+  "version": "0.3.8",
+  "repository": "https://github.com/zhenglimindesign-ing/piano-score-simplifier",
+  "tag": "v0.3.8",
+  "release_url": "https://github.com/zhenglimindesign-ing/piano-score-simplifier/releases/tag/v0.3.8",
+  "release_commit": "09369e8aadb4a400d99e98a30f8eb72b1707a6d6",
+  "tag_object": "d04e81b621896d39c57201c67e55984df0e801df",
+  "published_at": "2026-10-11T15:30:58Z",
+  "verified_at": "2026-10-11T15:33:16.868179+00:00",
+  "prerelease": true,
+  "distribution_sha256": "5848177a448ba9ed3948517200394d15861f40ea5c45d02b5e20aced60ec2271",
+  "assets": [
+    {
+      "name": "DISTRIBUTION.json",
+      "sha256": "5848177a448ba9ed3948517200394d15861f40ea5c45d02b5e20aced60ec2271",
+      "bytes": 11592,
+      "anonymous_download": "PASS",
+      "github_digest": "PASS",
+      "url": "https://github.com/zhenglimindesign-ing/piano-score-simplifier/releases/download/v0.3.8/DISTRIBUTION.json"
+    },
+    {
+      "name": "piano-score-reduction-0.3.8.zip",
+      "sha256": "bd8ce530ae001c33ef841a32031627996f8eaf852da3c2fab583f4d548e5b18f",
+      "bytes": 60355,
+      "anonymous_download": "PASS",
+      "github_digest": "PASS",
+      "url": "https://github.com/zhenglimindesign-ing/piano-score-simplifier/releases/download/v0.3.8/piano-score-reduction-0.3.8.zip"
+    },
+    {
+      "name": "score-simplifier-0.3.8-plugin.zip",
+      "sha256": "a6c825acb705ecbc25b285f61ba175de9aaf11773bea9341c7db6ca258bdd571",
+      "bytes": 64734,
+      "anonymous_download": "PASS",
+      "github_digest": "PASS",
+      "url": "https://github.com/zhenglimindesign-ing/piano-score-simplifier/releases/download/v0.3.8/score-simplifier-0.3.8-plugin.zip"
+    },
+    {
+      "name": "score-simplifier-0.3.8-source.zip",
+      "sha256": "f5e09d83b57944dd3a0c8717d5f751ee7f4a0a8c619e30da0f6752fe23f0c6dc",
+      "bytes": 1440452,
+      "anonymous_download": "PASS",
+      "github_digest": "PASS",
+      "url": "https://github.com/zhenglimindesign-ing/piano-score-simplifier/releases/download/v0.3.8/score-simplifier-0.3.8-source.zip"
+    },
+    {
+      "name": "SHA256SUMS",
+      "sha256": "d52aa3315024250a22b7d33bf5d42c26b12078338704352df035b2e93c04b2dd",
+      "bytes": 382,
+      "anonymous_download": "PASS",
+      "github_digest": "PASS",
+      "url": "https://github.com/zhenglimindesign-ing/piano-score-simplifier/releases/download/v0.3.8/SHA256SUMS"
+    }
+  ],
+  "verification": {
+    "remote_release_tree": {
+      "status": "PASS",
+      "git_blobs": 63
+    },
+    "anonymous_downloads": {
+      "status": "PASS",
+      "assets": 5
+    },
+    "prior_v037_release_and_tag": "PASS_UNCHANGED",
+    "focused_release_tests": {
+      "status": "PASS",
+      "tests": 30,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0
+    },
+    "revision_regressions_reused": {
+      "status": "PASS",
+      "tests": 79,
+      "new_cases": 17,
+      "rerun_in_release_task": false
+    },
+    "installed_plugin": {
+      "status": "PASS",
+      "wrapper_version": "0.3.8-plugin.1",
+      "payload_files_matched": 20,
+      "skill_sha256": "1dafaf865d85ed1e65a39743869bcdc29ddcdd2ff71985d30e86f5808dd3286c"
+    },
+    "native_load": {
+      "status": "PASS",
+      "host": "Codex CLI 0.145.0",
+      "available_default_model": "gpt-5.6-sol",
+      "model_calls": 1,
+      "ephemeral": true,
+      "actual_installed_skill_and_reference_read": true,
+      "scope": "One fresh invocation in one local configuration"
+    },
+    "four_artifact_fixture": {
+      "status": "PASS",
+      "scope": "Two authored bars from installed runtime",
+      "artifacts": [
+        "PDF",
+        "MusicXML",
+        "MIDI",
+        "change notes"
+      ],
+      "renderer": "MuseScore 4.7.5",
+      "pdf_pages_inspected": 1,
+      "automated_overall": "REVIEW_REQUIRED"
+    },
+    "image_only_pdf_fixture": {
+      "status": "PASS",
+      "scope": "One synthetic scanned page",
+      "route": "TRANSCRIPTION_AND_SOURCE_REVIEW",
+      "core_ready": false
+    },
+    "full_pdf_transcription": "NOT_RUN",
+    "v038_other_hosts": "NOT_RUN",
+    "audio_analysis": "NOT_RUN",
+    "human_listening_and_playing": "NOT_RUN",
+    "musical_acceptance": "NOT_RUN",
+    "level_calibration": "NOT_RUN"
+  },
+  "preservation": {
+    "previous_releases": "RETAINED",
+    "old_local_plugin": "BACKED_UP_AND_RESTORED",
+    "existing_scores": "BYTE_IDENTICAL_INCLUDING_ONE_VERIFIED_AT_NEW_PATH",
+    "strauss_reprocessed": false,
+    "private_score_included": false
+  },
+  "publication_scope": "GitHub prerelease; no app-store or SkillHub submission"
+}
