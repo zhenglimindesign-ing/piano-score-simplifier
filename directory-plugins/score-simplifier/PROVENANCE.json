@@ -27,13 +27,14 @@
     "license notices retained in standalone Skill copies",
     "review-branch privacy URL",
     "separate prerelease wrapper version for the review iteration",
-    "Claude directory install identifier piano-score-simplifier avoids code-simplifier name confusion; display name remains Score Simplifier"
+    "Claude directory install identifier piano-score-simplifier avoids code-simplifier name confusion; display name remains Score Simplifier",
+    "OpenAI scan remediation: termsOfServiceURL points to the existing public software license; no additional legal conditions introduced"
   ],
   "runtime_claims": "Codex local and bounded Claude Code tests only; official portal checks are recorded separately. No new ChatGPT/Work execution claim.",
   "added_license_notices": {
     "LICENSE": "6bb0c465f61948e0d765d32cc017814b264dec198207f58b4780b2d6a2962b4a",
     "NOTICE": "39a84edfd65cfb03dc445e74915c97f47f121b46128bd6c01db09590bf3a2eb9"
   },
-  "candidate_package_version": "0.3.8-distribution.2",
+  "candidate_package_version": "0.3.8-distribution.3",
   "source_release_unchanged": true
 }

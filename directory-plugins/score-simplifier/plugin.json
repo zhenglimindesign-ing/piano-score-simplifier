@@ -1,7 +1,7 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "score-simplifier",
-  "version": "0.3.8-distribution.2",
+  "version": "0.3.8-distribution.3",
   "description": "Experimental reduction of authorized solo-piano scores, with read-only PDF intake, declared delivery scope, source-bound edits, MusicXML, MIDI and QA. Local Python 3.10+, pinned Python dependencies, MuseScore and Poppler are required for the complete editable-score workflow. No OMR engine, audio-analysis service, backend or credentials are bundled. PDF transcription, complex notation, difficulty calibration, human musical acceptance and playing comfort are separate gates. Full delivery in other host environments must be tested there.",
   "author": {
     "name": "Limin Zheng"
@@ -31,7 +31,8 @@
         "supportURL": "https://github.com/zhenglimindesign-ing/piano-score-simplifier/issues",
         "logo": "./assets/icon.svg",
         "composerIcon": "./assets/icon.svg",
-        "privacyPolicyURL": "https://github.com/zhenglimindesign-ing/piano-score-simplifier/blob/codex/distribution-prep-20261013/directory-plugins/score-simplifier/PRIVACY.md"
+        "privacyPolicyURL": "https://github.com/zhenglimindesign-ing/piano-score-simplifier/blob/codex/distribution-prep-20261013/directory-plugins/score-simplifier/PRIVACY.md",
+        "termsOfServiceURL": "https://github.com/zhenglimindesign-ing/piano-score-simplifier/blob/main/LICENSE"
       }
     }
   }
