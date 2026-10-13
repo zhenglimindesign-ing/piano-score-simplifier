@@ -23,6 +23,16 @@ piano-score-reduction/
 
 只复制 `SKILL.md` 会缺少脚本与排谱样式。更新时保留旧安装和曲谱输出；不确定当前版本时，可以另建测试项目。
 
+### 通过 skills.sh 安装完整 Skill
+
+在准备使用 Skill 的项目目录中运行：
+
+```sh
+DISABLE_TELEMETRY=1 DO_NOT_TRACK=1 npx --yes skills@1.7.2 add zhenglimindesign-ing/piano-score-simplifier --skill piano-score-reduction --agent codex claude-code --copy --yes
+```
+
+该命令关闭遥测，将 Skill 和资源完整复制到项目的 Codex、Claude Code skill 目录，并跟随仓库当前默认分支。重启宿主或新开会话后描述任务。插件 marketplace 登记及 Python／系统依赖准备是独立步骤，该命令不会代办这些设置。
+
 ## 2. 放到对应宿主，或在宿主中加载
 **证据版本：**v0.3.8 新增已安装 Codex CLI 加载检查和两小节本地四项交付／排谱检查。下表保留较早核心证据；独立 v0.3.8 Claude Code／Claude 网页／ChatGPT Work 试验仍为 NOT_RUN。见[当前证据矩阵](SUPPORT.zh-CN.md)。
 

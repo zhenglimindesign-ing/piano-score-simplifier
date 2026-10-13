@@ -148,6 +148,16 @@ Give me PDF, MusicXML and MIDI, plus the main changes and remaining difficult pa
 
 If you are unsure about levels, simply ask for “an easier short version.”
 
+### Install the complete Skill with skills.sh
+
+From the project where you will use the Skill, run:
+
+```sh
+DISABLE_TELEMETRY=1 DO_NOT_TRACK=1 npx --yes skills@1.7.2 add zhenglimindesign-ing/piano-score-simplifier --skill piano-score-reduction --agent codex claude-code --copy --yes
+```
+
+This project-level command copies the Skill and its resources into the Codex and Claude Code skill directories with telemetry disabled. It follows the repository’s current default branch. Restart the host or open a fresh session, then describe your task. Plugin marketplace registration and Python/system dependency setup are separate steps; the command does not perform them.
+
 ## What you receive
 
 Agree the page result before full processing. An **annotation** retains the printed notes and marks omissions. A **graphical reduction** actually erases selected notes and repaginates whole systems, preserving the scanned printing. An **editable re-engraving** is typeset again from verified canonical notation. A short source phrase can clarify the difference when needed. Choose the artifacts you need; complete MusicXML and MIDI from a PDF require verified transcription of that scope. If this cannot be completed reliably, the agent should explain the blocker before proposing a different delivery.

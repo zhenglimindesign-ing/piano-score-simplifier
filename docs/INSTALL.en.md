@@ -23,6 +23,16 @@ piano-score-reduction/
 
 Copying only `SKILL.md` omits scripts and the engraving style. Preserve the old installation and score outputs when updating; use a separate test project if the installed version is uncertain.
 
+### Install the complete Skill with skills.sh
+
+From the project where you will use the Skill, run:
+
+```sh
+DISABLE_TELEMETRY=1 DO_NOT_TRACK=1 npx --yes skills@1.7.2 add zhenglimindesign-ing/piano-score-simplifier --skill piano-score-reduction --agent codex claude-code --copy --yes
+```
+
+This project-level command copies the Skill and its resources into the Codex and Claude Code skill directories with telemetry disabled. It follows the repository’s current default branch. Restart the host or open a fresh session, then describe your task. Plugin marketplace registration and Python/system dependency setup are separate steps; the command does not perform them.
+
 ## 2. Place or load it in your host
 
 **Evidence version:** v0.3.8 has a new installed Codex CLI load check and a two-bar local four-artifact/render check. The trials below retain earlier core evidence; new v0.3.8 Claude Code / Claude web / ChatGPT Work trials remain NOT_RUN. See the [current evidence matrix](SUPPORT.en.md).
