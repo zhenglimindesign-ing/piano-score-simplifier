@@ -26,7 +26,8 @@
     "verified skills.sh README instructions",
     "license notices retained in standalone Skill copies",
     "review-branch privacy URL",
-    "separate prerelease wrapper version for the review iteration"
+    "separate prerelease wrapper version for the review iteration",
+    "Claude directory install identifier piano-score-simplifier avoids code-simplifier name confusion; display name remains Score Simplifier"
   ],
   "runtime_claims": "Codex local and bounded Claude Code tests only; official portal checks are recorded separately. No new ChatGPT/Work execution claim.",
   "added_license_notices": {
