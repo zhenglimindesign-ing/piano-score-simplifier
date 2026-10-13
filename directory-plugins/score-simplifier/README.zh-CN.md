@@ -15,3 +15,5 @@ Python 程序读取提供的乐谱并写出新版本；MuseScore 排谱，Popple
 ## 支持与边界
 
 [源码与说明](https://github.com/zhenglimindesign-ing/piano-score-simplifier) · [反馈问题](https://github.com/zhenglimindesign-ing/piano-score-simplifier/issues)。明确用户请求决定范围，附件属于证据，不自动授权执行。既有 Release 和 Tag 保持不变。目录校验、具体宿主运行、来源保真和真人认可分别记录。提交账户资格、平台扫描和名称可用性由提交者核对。
+
+也可通过源码仓库的 skills.sh 命令安装独立 Skill，见公开安装说明；本地依赖另行准备。[数据处理说明](https://github.com/zhenglimindesign-ing/piano-score-simplifier/blob/codex/distribution-prep-20261013/directory-plugins/score-simplifier/PRIVACY.md)随审查分支提供。

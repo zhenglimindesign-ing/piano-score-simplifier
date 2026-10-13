@@ -1,21 +1,23 @@
-# score-simplifier 提交交接
+# score-simplifier 提交准备
 
 [English](SUBMISSION.md)
 
-状态：本地已准备的审查候选包。本次没有创建官方草稿、送审或发布，也没有改动 Release 或 Tag。
+这是 `codex/distribution-prep-20261013` 上的 0.3.8-distribution.2 审查候选包。现有 Release 和 Tag 未改动，发布前需维护者审查。生成式公开分发项目在下一次 Release 前应同步回 canonical 源码；本次不改写历史发布清单哈希。
 
 ## OpenAI
 
-打开 https://platform.openai.com/plugins → Create plugin → Skills only，上传完整候选 ZIP。检查平台生成的 `.codex-plugin/plugin.json`、展示字段和 Skill 产品范围。包内已有方形图标、限长介绍、三个启动提示、依赖声明和本地数据处理说明。skills-only ZIP 的展示 URL 可选，不填写尚未公开的隐私 URL。身份验证、Apps Management 写权限、政策声明与平台安全扫描由提交者完成。平台转换与目录原生安装为 NOT VERIFIED。
+完整 ZIP 包含通用、Codex、Claude manifest、方形图标、三个启动提示、依赖与隐私说明。产品范围由 `skills/*/agents/openai.yaml` 声明。
 
-本地工作区流程通过 agents/openai.yaml 限定到 CODEX。官方迁移文档要求核心价值依赖本地执行或任意本地文件访问时先联系 OpenAI partner。送审前确认这一资格；本次没有新增后端。
+执行路径限定为 CODEX。Codex 与已登录 Claude Code 使用声明的 Python 依赖及已安装 MuseScore 渲染器，对两小节自创测试谱生成 XML、PDF 和 MIDI；独立事件比对通过。人工聆听、演奏、等级校准及 ChatGPT/Work 执行为 NOT VERIFIED。本地执行的 partner 准入仍是外部条件。
+
+已登录平台要求先完成开发者身份验证。本人已提交个人验证，目前 identity in review；本次不声称完成上传、官方扫描或正式送审。通过后继续 https://platform.openai.com/plugins → 上传新插件 → skills-only ZIP，检查转换与自动扫描结果并修复阻断项。正式送审和具有约束力的声明需账号持有人授权。
 
 ## Claude
 
-打开 https://claude.ai/directory/manage → Submit new → Plugin bundle。仓库：zhenglimindesign-ing/piano-score-simplifier；插件路径：directory-plugins/score-simplifier；本地候选分支：codex/distribution-prep-20261013，尚未推送。先按项目的源码／生成分发流程审查并公开候选来源，不提交私有维护仓库。确认长期归属组织、付费计划／角色资格，以及具有仓库写权限的 GitHub 连接。
+来源：`zhenglimindesign-ing/piano-score-simplifier`；路径：`directory-plugins/score-simplifier`；分支：`codex/distribution-prep-20261013`。操作路径为 https://claude.ai/directory/manage → Submit new → Plugin bundle → Validate。GitHub 写权限已确认，最终任务交接记录平台校验及保存草稿是否实际成功。本地 Claude 安装／发现及已登录小任务通过；目录内原生运行仍为 NOT VERIFIED。
 
-[目录政策](https://support.claude.com/en/articles/13145358-anthropic-software-directory-policy) 1.F 对查询／提取记忆、历史和用户生成／上传文件有广泛禁止，其是否适用于用户明确授权的 skills-only 材料处理，本次未得到平台澄清。本插件使用用户材料，澄清前不标为可送审。3.A 对收集用户数据或连接远端服务的软件要求可访问的隐私政策；PRIVACY.md 是可审查草稿，不是已上线 URL。填写联系邮箱、年龄范围、三个示例；执行 portal Validate，解决阻断项，由本人接受条款。登录后的隔离 Claude 模型任务为 NOT VERIFIED；本地安装和组件发现已通过。
+manifest 指向[分支隐私说明](https://github.com/zhenglimindesign-ing/piano-score-simplifier/blob/codex/distribution-prep-20261013/directory-plugins/score-simplifier/PRIVACY.md)。政策咨询由另一路处理，本次不因政策推测删除核心功能，也不把校验通过当作政策批准。联系邮箱、年龄范围、具有约束力的合规确认与正式送审仍需账号持有人决定。本任务未获正式送审或公开发布授权。
 
 ## skills.sh
 
-当前公开源码可经仓库 URL 发现并完整安装，测试已关闭遥测。本次公开关键词搜索／索引尚不可用。FAQ 说明索引依赖安装遥测，本次没有发送安装遥测，也未发现这一渠道的官方提交表单。不需要推送候选 wrapper 才能安装，不把 CLI 安装当作搜索收录或官方认可。
+仓库发现、完整复制和新会话加载已在关闭遥测下通过；双语公开 README 已补充验证过的命令。默认分支安装仍使用当前公开源码，提议的文档和指令修复经维护者审查后才进入默认分支。关键词／搜索收录是独立事项且为 NOT VERIFIED；本次未添加排行榜功能或发送安装遥测。

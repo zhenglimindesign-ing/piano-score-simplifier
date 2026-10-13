@@ -146,6 +146,16 @@ skill 可以从这些来源开始：
 
 拿不准档位时，可以只说“先做一个更容易的短版本”。
 
+### 通过 skills.sh 安装完整 Skill
+
+在准备使用 Skill 的项目目录中运行：
+
+```sh
+DISABLE_TELEMETRY=1 DO_NOT_TRACK=1 npx --yes skills@1.7.2 add zhenglimindesign-ing/piano-score-simplifier --skill piano-score-reduction --agent codex claude-code --copy --yes
+```
+
+该命令关闭遥测，将 Skill 和资源完整复制到项目的 Codex、Claude Code skill 目录，并跟随仓库当前默认分支。重启宿主或新开会话后描述任务。插件 marketplace 登记及 Python／系统依赖准备是独立步骤，该命令不会代办这些设置。
+
 ## 你会收到什么
 
 全量处理前说明页面效果。**标注版**保留印刷音符，加省音标记；**图像减音版**实际擦除指定音符，按完整乐谱行重新分页，保留扫描印刷字形；**可编辑重新刻谱版**从核对过的规范记谱重新排谱。有歧义时，可用一个短乐句说明差别。你可以按需求选择交付物；从 PDF 交付完整 MusicXML 与 MIDI，需要先完成该范围的可靠转录。无法可靠完成时，agent 应先说明具体阻碍，再提出其他交付方案。

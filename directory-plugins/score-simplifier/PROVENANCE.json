@@ -22,7 +22,17 @@
     "directory manifests",
     "square branding asset",
     "product-scoped OpenAI interface",
-    "bilingual plugin README"
+    "bilingual plugin README",
+    "verified skills.sh README instructions",
+    "license notices retained in standalone Skill copies",
+    "review-branch privacy URL",
+    "separate prerelease wrapper version for the review iteration"
   ],
-  "runtime_claims": "See README. Portal conversion and official directory installation NOT VERIFIED."
+  "runtime_claims": "Codex local and bounded Claude Code tests only; official portal checks are recorded separately. No new ChatGPT/Work execution claim.",
+  "added_license_notices": {
+    "LICENSE": "6bb0c465f61948e0d765d32cc017814b264dec198207f58b4780b2d6a2962b4a",
+    "NOTICE": "39a84edfd65cfb03dc445e74915c97f47f121b46128bd6c01db09590bf3a2eb9"
+  },
+  "candidate_package_version": "0.3.8-distribution.2",
+  "source_release_unchanged": true
 }
