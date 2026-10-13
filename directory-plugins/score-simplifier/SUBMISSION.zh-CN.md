@@ -10,7 +10,7 @@
 
 执行路径限定为 CODEX。Codex 与已登录 Claude Code 使用声明的 Python 依赖及已安装 MuseScore 渲染器，对两小节自创测试谱生成 XML、PDF 和 MIDI；独立事件比对通过。人工聆听、演奏、等级校准及 ChatGPT/Work 执行为 NOT VERIFIED。本地执行的 partner 准入仍是外部条件。
 
-已登录平台要求先完成开发者身份验证。本人已提交个人验证，目前 identity in review；本次不声称完成上传、官方扫描或正式送审。通过后继续 https://platform.openai.com/plugins → 上传新插件 → skills-only ZIP，检查转换与自动扫描结果并修复阻断项。正式送审和具有约束力的声明需账号持有人授权。
+提交账号须完成开发者身份验证并具备写权限。操作路径为 https://platform.openai.com/plugins → 上传新插件 → skills-only ZIP，检查转换和自动扫描结果并修复阻断项。当前草稿与扫描结果另见任务交接，本地包校验不构成这些状态的证明。正式送审和具有约束力的声明需账号持有人授权。
 
 ## Claude
 

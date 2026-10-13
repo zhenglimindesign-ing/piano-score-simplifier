@@ -10,7 +10,7 @@ The complete ZIP includes portable, Codex and Claude manifests, square icons, th
 
 The execution path is limited to CODEX. Codex and authenticated Claude Code generated XML, PDF and MIDI from two authored bars using declared Python dependencies and the installed MuseScore renderer. Independent event comparison passes. Human listening, playing, level calibration and ChatGPT/Work execution are NOT VERIFIED. Local-execution partner eligibility remains external.
 
-The authenticated portal rejected upload until developer identity is verified. The account holder submitted individual verification; identity is in review. No upload, official scan or formal submission is claimed. Once approved, continue at https://platform.openai.com/plugins → upload new plugin → skills-only ZIP, inspect conversion and automatic findings, then fix any blocking findings. Formal submission and binding attestations require the account holder's authorization.
+Developer identity and write access must be verified in the submitting account. Use https://platform.openai.com/plugins → upload new plugin → skills-only ZIP, inspect conversion and automatic findings, then fix blocking findings. Current draft and scan results are recorded separately in the task handoff; local package validation alone does not establish them. Formal submission and binding attestations require the account holder's authorization.
 
 ## Claude
 
