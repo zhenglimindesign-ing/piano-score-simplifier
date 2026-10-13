@@ -2,7 +2,7 @@
 
 [中文](SUBMISSION.zh-CN.md)
 
-This is a review candidate, version 0.3.8-distribution.2, on `codex/distribution-prep-20261013`. Existing Releases and Tags are unchanged. The maintainer must review this branch before publishing it. Generated public source projects must reconcile changes with their canonical source before the next Release; published inventory hashes are deliberately not rewritten here.
+This is a review candidate, version 0.3.8-distribution.3, on `codex/distribution-prep-20261013`. Existing Releases and Tags are unchanged. The maintainer must review this branch before publishing it. Generated public source projects must reconcile changes with their canonical source before the next Release; published inventory hashes are deliberately not rewritten here.
 
 ## OpenAI
 

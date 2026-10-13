@@ -2,7 +2,7 @@
 
 [English](SUBMISSION.md)
 
-这是 `codex/distribution-prep-20261013` 上的 0.3.8-distribution.2 审查候选包。现有 Release 和 Tag 未改动，发布前需维护者审查。生成式公开分发项目在下一次 Release 前应同步回 canonical 源码；本次不改写历史发布清单哈希。
+这是 `codex/distribution-prep-20261013` 上的 0.3.8-distribution.3 审查候选包。现有 Release 和 Tag 未改动，发布前需维护者审查。生成式公开分发项目在下一次 Release 前应同步回 canonical 源码；本次不改写历史发布清单哈希。
 
 ## OpenAI
 
