@@ -1,0 +1,28 @@
+{
+  "status": "REVIEW_CANDIDATE_NOT_PUBLISHED",
+  "source_repository": "https://github.com/zhenglimindesign-ing/piano-score-simplifier",
+  "source_release": "v0.3.8",
+  "public_base_commit": "4dd7a0f1742c3c1ccb267e8b37c5b8a9385267b4",
+  "unchanged_skill_files": {
+    "requirements.txt": "21029681fec52521641428ede1cbd7eb9baf4242c71bc7fde5c6039d96de35e6",
+    "SKILL.md": "1dafaf865d85ed1e65a39743869bcdc29ddcdd2ff71985d30e86f5808dd3286c",
+    "references/pdf-intake.zh-CN.md": "ab1505d0e035bcc314c4994c51f58cd770f87cfc454e137003d6413c5abaa5fc",
+    "references/pdf-intake.en.md": "f8a5468f93a8ed03d831121fa8e8f5522d0cd5b275e8c8f62d5d86c3aec3ef06",
+    "references/workflow.en.md": "af0df38af49ade9fde149f969632eaf16b4b2108e537f436a8b507287e862fed",
+    "references/workflow.zh-CN.md": "289449c9b1eecf025f57ea908a251f9f62c22ce538b275c0fb21f91443fc3bcd",
+    "scripts/fetch_schema.py": "dc4e210ce8cf05cb7c4576137ae0cde5d7a270c26a10d9072c7d1681f5986596",
+    "scripts/score_intake.py": "e04b28401872390ff92968c4dcc9b8e556d1c11179d040186ed97cd6dd2ee283",
+    "scripts/score_tool.py": "b961cafdf1cb092d39716880eb344fb41b442f20b7cd389d4a9bfb5f83888411",
+    "scripts/score_core.py": "6908a97aa5c5a0dff759efd4b79477b5200796d016bf0167b26caae75a524965",
+    "scripts/score_pipeline.py": "df739a55df152f9152d50e0776ff0626b94d13062ff8fae7487c6f2c809ac4f2",
+    "scripts/preflight.py": "3c86bc0daf0969bc53471d1f462582a10337210d87eecd6e445d690a54ea4952",
+    "assets/readable-a4.mss": "21491ae8f2c464e819e07da363445f7118538bd44302c337256888d3c38e1a38"
+  },
+  "packaging_changes": [
+    "directory manifests",
+    "square branding asset",
+    "product-scoped OpenAI interface",
+    "bilingual plugin README"
+  ],
+  "runtime_claims": "See README. Portal conversion and official directory installation NOT VERIFIED."
+}

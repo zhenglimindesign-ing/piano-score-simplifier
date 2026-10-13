@@ -1,0 +1,7 @@
+interface:
+  display_name: "Score Simplifier"
+  short_description: "Simplify solo piano scores"
+  default_prompt: "Inspect this authorized piano score and explain the delivery choices before editing."
+policy:
+  products: ["CODEX"]
+  allow_implicit_invocation: true
